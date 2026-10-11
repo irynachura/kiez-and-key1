@@ -1,0 +1,1384 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kiez &amp; Key — Your Berlin home, without the bureaucracy</title>
+<meta name="description" content="Hand-picked new builds, lofts and houses in Berlin's best neighbourhoods — secured and ready, so you arrive to keys, not paperwork.">
+<link rel="canonical" href="https://kiezandkey.de/"><!-- TODO: replace with your real domain -->
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#0B0C0C">
+<meta name="author" content="Kiez &amp; Key">
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Kiez &amp; Key">
+<meta property="og:locale" content="en_GB">
+<meta property="og:title" content="Kiez &amp; Key — Your Berlin home, without the bureaucracy">
+<meta property="og:description" content="Hand-picked new builds, lofts and houses in Berlin's best neighbourhoods — secured and ready, so you arrive to keys, not paperwork.">
+<meta property="og:url" content="https://kiezandkey.de/"><!-- TODO: replace with your real domain -->
+<!-- og-image.jpg (1200×630) is included in the site folder; only the domain in the URL needs to match your real domain -->
+<meta property="og:image" content="https://kiezandkey.de/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Kiez &amp; Key — homes in Berlin">
+<!-- Twitter / X -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Kiez &amp; Key — Your Berlin home, without the bureaucracy">
+<meta name="twitter:description" content="Hand-picked new builds, lofts and houses in Berlin's best neighbourhoods — secured and ready, so you arrive to keys, not paperwork.">
+<meta name="twitter:image" content="https://kiezandkey.de/og-image.jpg">
+<!-- Favicon (Kiez & Key key mark). Embedded so it works as a single file.
+     Files for the server are also provided: favicon.ico, favicon.svg, favicon-32x32.png, apple-touch-icon.png, icon-192.png, icon-512.png -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230B0C0C'/%3E%3Cg fill='none' stroke='%23D9B48A' stroke-width='4.8' stroke-linecap='round'%3E%3Ccircle cx='21.1' cy='32' r='9.9'/%3E%3Cpath d='M32.5 32H53.1M44.2 32v9M53.1 32v6.7'/%3E%3C/g%3E%3C/svg%3E">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="manifest" href="/site.webmanifest">
+<script>
+/* Below-the-fold photos wait until the first screen has loaded (faster first paint on phones) */
+document.documentElement.classList.add('bg-wait');
+window.kkBgQueue=[]; window.kkWhenBg=function(fn){ if(document.documentElement.classList.contains('bg-wait')) kkBgQueue.push(fn); else fn(); };
+window.kkLater=function(f){ var ric=window.requestIdleCallback||function(cb){ return setTimeout(cb,1); }; function run(){ ric(function(){ f(); },{timeout:1200}); } if(document.readyState==='complete') run(); else window.addEventListener('load',run); };
+window.kkReleaseBg=function(){ var h=document.documentElement; if(!h.classList.contains('bg-wait')) return; h.classList.remove('bg-wait'); var q=kkBgQueue; kkBgQueue=[]; q.forEach(function(f){ try{f();}catch(e){} }); };
+</script>
+<style>.bg-wait .ph{background-image:none !important}</style>
+<link rel="preload" as="font" type="font/woff2" href="assets/fonts/onest-latin.woff2" crossorigin>
+<style>
+/* Onest (SIL Open Font License) — hosted locally, no requests to Google */
+@font-face{font-family:'Onest';font-style:normal;font-weight:300 700;font-display:swap;src:url(assets/fonts/onest-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C4,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'Onest';font-style:normal;font-weight:300 700;font-display:swap;src:url(assets/fonts/onest-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+</style>
+<link rel="preconnect" href="https://res.cloudinary.com">
+<link rel="preload" as="image" href="assets/hero-poster-720.webp" type="image/webp" fetchpriority="high" media="(max-width: 759px)">
+<link rel="preload" as="image" href="assets/hero-poster.webp" type="image/webp" fetchpriority="high" media="(min-width: 760px)">
+<!-- ANALYTICS: Google Analytics 4 and Meta Pixel are NOT connected.
+     Do not paste their snippets here directly — in Germany they may only load after consent.
+     Insert them in the function window.kkApplyConsent near the end of this file (marked "GA4: insert here" / "Meta Pixel: insert here"). -->
+<noscript></noscript>
+<style>
+
+body{margin:0;background:#0B0C0C}
+a{color:#F2EEE8;text-decoration:none}a:hover{color:#D9B48A}
+.kk{container:kk / inline-size}
+.kk *{box-sizing:border-box}
+.ph{position:relative;overflow:hidden;background-color:#1A1C1B;background-size:cover;background-repeat:no-repeat;background-position:center}
+.glass{background:rgba(255,255,255,0.07);-webkit-backdrop-filter:blur(20px) saturate(140%);backdrop-filter:blur(20px) saturate(140%);border:1px solid rgba(255,255,255,0.14)}
+.shade{background-image:linear-gradient(180deg,rgba(11,12,12,0.3) 0%,rgba(11,12,12,0) 32%,rgba(11,12,12,0.2) 58%,rgba(11,12,12,0.88) 100%)}
+
+.hero-video{position:absolute;top:0;left:0;width:100%;height:auto;aspect-ratio:1280 / 704;object-fit:cover;object-position:center;z-index:0;pointer-events:none}
+.hero-shade{position:absolute;top:0;left:0;right:0;height:calc(55cqi + 2px);z-index:1;pointer-events:none;background-image:linear-gradient(180deg,rgba(11,12,12,0.55) 0%,rgba(11,12,12,0) 22%,rgba(11,12,12,0) 78%,rgba(11,12,12,1) 100%),linear-gradient(90deg,rgba(11,12,12,0.8) 0%,rgba(11,12,12,0.45) 30%,rgba(11,12,12,0) 52%)}
+
+.i-penthouse{background-image:url(assets/i-penthouse-3a35a11e.webp)}
+.i-newbuild{background-image:url(assets/i-newbuild-ea08d7dd.webp);background-position:38% center}
+.i-house{background-image:url(assets/i-house-683f3f89.webp);background-position:42% center}
+.i-mitte{background-image:linear-gradient(180deg,rgba(11,12,12,0.25) 0%,rgba(11,12,12,0) 30%,rgba(11,12,12,0.25) 55%,rgba(11,12,12,0.9) 100%),url(assets/i-mitte-e320712a.webp);background-position:32% center}
+.i-cburg{background-image:linear-gradient(180deg,rgba(11,12,12,0.25) 0%,rgba(11,12,12,0) 30%,rgba(11,12,12,0.25) 55%,rgba(11,12,12,0.9) 100%),url(assets/i-cburg-01061646.webp)}
+.i-grune{background-image:linear-gradient(180deg,rgba(11,12,12,0.25) 0%,rgba(11,12,12,0) 30%,rgba(11,12,12,0.25) 55%,rgba(11,12,12,0.9) 100%),url(assets/i-grune-e23aa11a.webp);background-position:38% center}
+.i-pberg{background-image:linear-gradient(180deg,rgba(11,12,12,0.25) 0%,rgba(11,12,12,0) 30%,rgba(11,12,12,0.25) 55%,rgba(11,12,12,0.9) 100%),url(assets/i-pberg-c552e0be.webp)}
+
+
+.wrap{max-width:1360px;margin:0 auto;padding-left:40px;padding-right:40px}
+.hero{display:flex;flex-direction:column}
+.hdr{padding-top:28px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.nav{display:flex}
+.menu-btn{display:none}
+.hdr-cta{display:inline-flex;white-space:nowrap}
+.hdr > a:first-child{white-space:nowrap}
+.hero-body{flex-grow:1;display:flex;flex-direction:column;justify-content:flex-start;gap:40px;padding-top:110px;padding-bottom:48px}
+.hero-row{display:flex;justify-content:space-between;align-items:flex-start;gap:40px;min-height:calc(55cqi - 198px)}
+.hero-copy{flex:0 1 640px;min-width:0;max-width:640px}
+.h1{font-size:clamp(44px,5cqi,76px)}
+.mini{flex:0 0 340px;display:none}
+.search{display:flex;gap:6px;align-items:stretch}
+.field{flex:1 1 0;min-width:0;border-left:1px solid rgba(255,255,255,0.12)}
+.filters{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:-20px}
+.sec{padding-top:120px;padding-bottom:120px}
+.sec-head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap;margin-bottom:48px}
+.h2{font-size:clamp(34px,4.2cqi,60px)}
+.homes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.home{height:600px}
+.areas{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:2px}
+.area{height:620px;padding:32px}
+.steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0}
+.stats{display:flex;flex-wrap:wrap;gap:12px}
+.tst{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.faq{display:flex;gap:60px}
+.cta{min-height:640px;padding:40px}
+.cta-card{padding:56px}
+.foot{display:flex;justify-content:space-between;gap:48px;flex-wrap:wrap}
+
+.i-keys{background-image:url(assets/i-keys-c0871a48.webp);background-position:center 25%}
+.pains{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.i-daniel{background-image:url(assets/i-daniel-35e2b018.webp);background-position:center 30%}
+.i-sofia{background-image:url(assets/i-sofia-6fd214aa.webp);background-position:center 35%}
+.rev-pic{height:320px}
+.rev{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:20px;align-items:stretch}
+.rev-photo{min-height:560px}
+@container kk (max-width: 1100px){
+  .pains{grid-template-columns:minmax(0,1fr)}
+  .nav{display:none}
+  .menu-btn{display:inline-flex}
+  .homes{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .homes > :last-child{grid-column:1 / -1;height:440px}
+  .areas{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .area{height:480px}
+  .steps{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:40px}
+  .tst{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:minmax(320px,46%);overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:8px}
+  .tst > *{scroll-snap-align:start}
+}
+@container kk (max-width: 900px){
+  .hero{min-height:0}
+  .i-hero{background-size:100% auto;background-position:center top}
+  .hero-video{height:auto;aspect-ratio:1280 / 704;object-fit:cover;object-position:center}
+  .hero-shade{bottom:auto;height:calc(56cqi + 2px);background-image:linear-gradient(180deg,rgba(11,12,12,0.55) 0%,rgba(11,12,12,0.05) 30%,rgba(11,12,12,0.15) 60%,rgba(11,12,12,1) 100%)}
+  .hero-body{justify-content:flex-start;padding-top:calc(56cqi - 32px)}
+  .rev{grid-template-columns:minmax(0,1fr)}
+  .rev-photo{min-height:520px}
+  .wrap{padding-left:28px;padding-right:28px}
+  .hero-row{flex-direction:column;align-items:stretch;min-height:0}
+  .hero-copy{flex:0 0 auto}
+  .mini{flex:0 0 auto;max-width:420px;display:flex}
+  .search{flex-wrap:wrap}
+  .field{flex:1 1 40%;border-left:0}
+  .search-go{flex:1 1 100%}
+  .sec{padding-top:88px;padding-bottom:88px}
+  .faq{flex-direction:column;gap:32px}
+  .cta-card{padding:40px}
+}
+@container kk (max-width: 600px){
+  .rev-pic{height:280px}
+  .rev-photo{min-height:440px}
+  .wrap{padding-left:20px;padding-right:20px}
+  .hero{min-height:0}
+  .hdr{padding-top:18px}
+  .lang,.hdr-cta{display:none}
+  .hero-body{padding-top:calc(56cqi - 20px);padding-bottom:32px;gap:28px}
+  .mini{display:none}
+  .field{flex:1 1 100%;border-top:1px solid rgba(255,255,255,0.12)}
+  .mode{flex:1 1 100%}
+  .mode > button{flex:1 1 0}
+  .filters{margin-top:-8px}
+  .filters .note{flex:1 1 100%}
+  .sec{padding-top:72px;padding-bottom:72px}
+  .sec-head{margin-bottom:32px}
+  .homes{grid-template-columns:minmax(0,1fr)}
+  .homes > :last-child{grid-column:auto}
+  .home,.homes > :last-child{height:480px}
+  .areas{grid-template-columns:minmax(0,1fr)}
+  .area{height:400px;padding:24px}
+  .steps{grid-template-columns:minmax(0,1fr);row-gap:28px}
+  .tst{grid-auto-columns:86%}
+  .cta{min-height:560px;padding:16px}
+  .cta-card{padding:32px 24px}
+  .q{font-size:18px !important}
+}
+
+
+html{scroll-behavior:smooth}
+body{font-family:'Onest','Helvetica Neue',Helvetica,sans-serif;color:#F2EEE8}
+.top-bar{position:fixed;top:0;left:0;right:0;z-index:60;container:kk / inline-size;transition:background-color .35s ease,-webkit-backdrop-filter .35s ease,backdrop-filter .35s ease}
+.top-bar *{box-sizing:border-box}
+.top-bar .hdr{padding-bottom:16px}
+.top-bar.solid{background:rgba(11,12,12,0.72);-webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px)}
+.hs{position:relative;height:400vh}
+.stage{position:sticky;top:0;height:100vh;overflow:hidden;background:#0B0C0C}
+.stage-media{position:absolute;top:0;left:0;right:0;bottom:0;will-change:transform,filter;transform-origin:50% 40%}
+.stage-video{--fx:0.62;display:block}
+.stage-video{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:62% center;background:#0B0C0C;pointer-events:none}
+.stage-shade{position:absolute;top:0;left:0;right:0;bottom:0;pointer-events:none;background-image:linear-gradient(180deg,rgba(11,12,12,0.6) 0%,rgba(11,12,12,0) 20%,rgba(11,12,12,0) 50%,rgba(11,12,12,0.85) 100%),linear-gradient(90deg,rgba(11,12,12,0.7) 0%,rgba(11,12,12,0.3) 35%,rgba(11,12,12,0) 60%)}
+.stage-copy{position:absolute;left:0;right:0;bottom:0;padding-bottom:12vh;z-index:2;will-change:transform,opacity}
+.stage-copy .hero-copy{max-width:680px}
+.cue{position:absolute;left:50%;bottom:28px;transform:translateX(-50%);z-index:3;display:flex;flex-direction:column;align-items:center;gap:10px;font-size:11px;letter-spacing:0.22em;text-transform:uppercase;color:#CFC9C0;transition:opacity .4s}
+.cue i{display:block;width:1px;height:36px;background:linear-gradient(#CFC9C0,rgba(207,201,192,0));animation:cue 1.8s ease-in-out infinite;transform-origin:top}
+@keyframes cue{0%{transform:scaleY(0)}50%{transform:scaleY(1)}100%{transform:scaleY(1);opacity:0}}
+.after{position:relative;z-index:5;margin-top:-100vh;background:#0B0C0C;border-radius:40px 40px 0 0;box-shadow:0 -30px 80px rgba(0,0,0,0.55)}
+.search-block{padding-top:56px;display:flex;flex-direction:column;gap:40px}
+.search-block .filters{margin-top:-20px}
+@container kk (max-width: 900px){
+  .stage-video{height:auto;aspect-ratio:1280 / 704;top:72px;--fx:0.5;object-position:50% center}
+  .stage-shade{background-image:linear-gradient(180deg,rgba(11,12,12,0.7) 0%,rgba(11,12,12,0) 12%,rgba(11,12,12,0) 34%,rgba(11,12,12,0.85) 62%,rgba(11,12,12,1) 80%)}
+  .stage-copy{padding-bottom:10vh}
+  .after{border-radius:28px 28px 0 0}
+  .search-block{padding-top:40px}
+}
+@container kk (max-width: 600px){
+  .stage-copy{padding-bottom:13vh}
+  .stage-copy .h1{font-size:40px}
+  .stage-copy .hero-copy p{font-size:16px !important}
+  .cue{bottom:18px}
+  .search-block .filters{margin-top:-8px}
+}
+@media (prefers-reduced-motion: reduce){
+  .hs{height:100vh}
+  .after{margin-top:0}
+  .cue{display:none}
+}
+
+</style>
+<style>
+/* Neighbourhoods: expanding accordion */
+.areas{display:flex;gap:10px;height:620px;--grow:2.4;margin:0 20px}
+.areas .area{height:auto;flex:1 1 0;min-width:0;display:flex;flex-direction:column;justify-content:space-between;isolation:isolate;border-radius:24px;clip-path:inset(0 0 0 0 round 24px);
+  transition:flex-grow .8s cubic-bezier(.65,0,.15,1),clip-path 1.1s cubic-bezier(.7,0,.2,1) var(--d,0s)}
+.areas .area.is-active{flex-grow:var(--grow)}
+.area-bg{position:absolute;top:0;left:0;right:0;bottom:0;z-index:-1;background-size:cover;background-position:center;transform:scale(1.12);filter:brightness(.6) saturate(.8);
+  transition:transform 1.2s cubic-bezier(.2,.7,.1,1),filter .8s ease}
+.area.is-active .area-bg{transform:scale(1);filter:none}
+.area-num{font-size:13px;color:#CFC9C0}
+.area-body{display:flex;flex-direction:column;min-width:0}
+.area-name{display:inline-block;align-self:flex-start;white-space:nowrap;font-size:32px;font-weight:500;letter-spacing:-0.03em;line-height:1.05;
+  transform-origin:0 100%;transform:scale(var(--fit,1));transition:transform .8s cubic-bezier(.65,0,.15,1)}
+.area.is-active .area-name{transform:none}
+.area-more{display:grid;grid-template-rows:0fr;transition:grid-template-rows .7s cubic-bezier(.65,0,.15,1)}
+.area-more > div{min-height:0;overflow:hidden;display:flex;flex-direction:column;align-items:flex-start}
+.area.is-active .area-more{grid-template-rows:1fr}
+.area-desc{margin-top:12px;font-size:16px;color:#CFC9C0;opacity:0;transform:translateY(12px);transition:opacity .3s ease,transform .5s cubic-bezier(.2,.7,.1,1)}
+.area-count{margin-top:20px;padding:8px 14px;border-radius:999px;font-size:13px;opacity:0;transform:translateY(12px);transition:opacity .3s ease,transform .5s cubic-bezier(.2,.7,.1,1)}
+.area.is-active .area-desc,.area.is-active .area-count{opacity:1;transform:none;transition-delay:.35s}
+.area.is-active .area-count{transition-delay:.45s}
+.area:focus-visible{outline:2px solid #D9B48A;outline-offset:-6px}
+.areas.pre .area{clip-path:inset(100% 0 0 0 round 24px);transition:none}
+.areas.pre .area-bg{transform:scale(1.3);transition:none}
+@container kk (max-width: 1100px){ .areas{--grow:1.8;height:520px} }
+/* tablet / narrow windows: still a horizontal accordion, collapsed names run vertically */
+@container kk (max-width: 900px){
+  .areas{--grow:2.2;height:480px}
+  .areas .area{padding:24px}
+  .areas .area:not(.is-active) .area-name{font-size:24px;transform:translateX(1.05em) rotate(-90deg)}
+}
+/* phones only: vertical stack */
+@container kk (max-width: 560px){
+  .areas{flex-direction:column;height:auto;gap:8px;margin:0 16px}
+  .areas .area{flex:none;height:96px;justify-content:flex-end;
+    transition:height .7s cubic-bezier(.65,0,.15,1),clip-path 1.1s cubic-bezier(.7,0,.2,1) var(--d,0s)}
+  .areas .area.is-active{height:400px}
+  .area-num{position:absolute;top:24px;right:24px}
+  .area-name,.areas .area:not(.is-active) .area-name{transform:none;font-size:28px}
+}
+
+@media (prefers-reduced-motion: reduce){
+  .areas .area,.area-bg,.area-name,.area-more,.area-desc,.area-count{transition:none !important}
+}
+</style>
+<style>
+/* Homes: partial directional reveal (~20% of each photo) */
+.homes > .home{isolation:isolate;clip-path:inset(0 0 0 0 round 32px);
+  transition:clip-path 1.4s cubic-bezier(.65,0,.2,1) var(--d,0s)}
+.home-bg{position:absolute;top:0;left:0;right:0;bottom:0;z-index:-1;background-size:cover;background-position:center;transform:none;
+  transition:transform 1.8s cubic-bezier(.2,.7,.1,1) var(--d,0s)}
+.homes.pre > .home{transition:none}
+.homes.pre > .home .home-bg{transition:none}
+/* 1: enters left -> right, 2: bottom -> up, 3: right -> left */
+.homes.pre > .home:nth-child(1){clip-path:inset(0 20% 0 0 round 32px)}
+.homes.pre > .home:nth-child(1) .home-bg{transform:translateX(-6%) scale(1.1)}
+.homes.pre > .home:nth-child(2){clip-path:inset(20% 0 0 0 round 32px)}
+.homes.pre > .home:nth-child(2) .home-bg{transform:translateY(6%) scale(1.1)}
+.homes.pre > .home:nth-child(3){clip-path:inset(0 0 0 20% round 32px)}
+.homes.pre > .home:nth-child(3) .home-bg{transform:translateX(6%) scale(1.1)}
+@media (prefers-reduced-motion: reduce){ .homes > .home,.home-bg{transition:none !important} }
+</style>
+<style>
+/* Homes: gentle hover */
+.homes > .home .glass{transition:transform .6s cubic-bezier(.2,.7,.1,1),background-color .4s ease}
+.homes > .home{transition:clip-path 1.4s cubic-bezier(.65,0,.2,1) var(--d,0s),transform .6s cubic-bezier(.2,.7,.1,1)}
+.homes.shown > .home{--d:0s}
+.homes.shown > .home .home-bg{transition:transform 1.2s cubic-bezier(.2,.7,.1,1)}
+@media (hover:hover){
+  .homes.shown > .home:hover{transform:translateY(-6px)}
+  .homes.shown > .home:hover .home-bg{transform:scale(1.06)}
+  .homes.shown > .home:hover > .glass{transform:translateY(-6px);background-color:rgba(255,255,255,.12)}
+}
+@media (prefers-reduced-motion: reduce){ .homes.shown > .home:hover,.homes.shown > .home:hover *{transform:none !important} }
+</style>
+<style>
+/* Reviews: compact editorial mosaic, 5 photo reviews alternating text/photo */
+.i-marta{background-image:url(assets/i-marta-4053b9e7.webp)}
+.i-marco{background-image:url(assets/i-marco-ca058e51.webp)}
+.tst{gap:24px;align-items:stretch}
+.tcol{display:flex;flex-direction:column;min-width:0}
+.rv{margin:0;display:flex;flex-direction:column;min-width:0;flex:1 1 auto}
+.rv-pic-bottom{justify-content:space-between}
+.rv .rev-pic{height:200px;border-radius:18px;flex:none;background-size:cover;background-position:center 30%}
+.rv-wide .rev-pic{height:250px}
+.rv-text{display:flex;flex-direction:column;gap:12px;padding:4px 2px 18px}
+.rv-wide .rv-text{padding:18px 2px 0}
+.rv figcaption{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px}
+.rv-name{font-size:14px;font-weight:500}
+.rv-from{font-size:12px;color:#A8A39B}
+.rv-from::before{content:"\2014\00a0"}
+.rv .q{margin:0;font-size:15px;line-height:1.5;letter-spacing:-0.01em;font-weight:400}
+.rv-wide .q{font-size:17px;line-height:1.45}
+@container kk (min-width: 1101px){
+  .tst{grid-template-columns:minmax(0,1fr) minmax(0,1.2fr) minmax(0,1fr) minmax(0,1.2fr) minmax(0,1fr)}
+}
+@container kk (max-width: 1100px){
+  .tst{grid-auto-columns:minmax(230px,32%)}
+}
+@container kk (max-width: 600px){
+  .tst{grid-auto-columns:72%}
+  .rv-wide .q{font-size:16px}
+}
+/* reveal: columns slide in from the right */
+#reviews{overflow-x:clip}
+.tst > .tcol{transition:transform 1.1s cubic-bezier(.16,1,.3,1) var(--d,0s),opacity .9s ease var(--d,0s)}
+.tst .rev-pic{transition:transform 1.4s cubic-bezier(.16,1,.3,1) var(--d,0s)}
+.tst .q,.tst figcaption{transition:transform 1s cubic-bezier(.16,1,.3,1) calc(var(--d,0s) + .2s),opacity .8s ease calc(var(--d,0s) + .2s)}
+.tst .rv{transition:transform .6s cubic-bezier(.2,.7,.1,1),border-color .4s ease}
+.tst.pre > .tcol{transform:translateX(140px);opacity:0;transition:none}
+.tst.pre .rev-pic{transform:scale(1.1);transition:none}
+.tst.pre .q,.tst.pre figcaption{transform:translateX(40px);opacity:0;transition:none}
+.tst.shown > .tcol{--d:0s}
+@media (hover:hover){
+  .tst.shown .rv:hover{transform:translateY(-6px)}
+  .tst.shown .rv:hover .rev-pic{transform:scale(1.02)}
+}
+@media (prefers-reduced-motion: reduce){
+  .tst *{transition:opacity .8s ease !important}
+  .tst.pre *,.tst.shown .rv:hover,.tst.shown .rv:hover *{transform:none !important}
+}
+</style>
+<style>
+/* FAQ: scroll reveal + gentle hover on questions */
+#guides .faq-line{position:relative;border-top-color:transparent !important}
+#guides .faq-line::before{content:"";position:absolute;left:0;right:0;top:-1px;height:1px;background:#2A2D2C;transform-origin:0 50%;
+  transition:transform 1.1s cubic-bezier(.65,0,.2,1) var(--d,0s)}
+#guides .faq-in{transition:transform 1s cubic-bezier(.16,1,.3,1) calc(var(--d,0s) + .15s),opacity .8s ease calc(var(--d,0s) + .15s)}
+#guides .faq-head > *{transition:transform 1.1s cubic-bezier(.16,1,.3,1) var(--d,0s),opacity .9s ease var(--d,0s)}
+#guides.pre .faq-line::before{transform:scaleX(0);transition:none}
+#guides.pre .faq-in{transform:translateY(28px);opacity:0;transition:none}
+#guides.pre .faq-head > *{transform:translateY(36px);opacity:0;transition:none}
+#guides .faq-q{display:inline-block;transition:transform .45s cubic-bezier(.2,.7,.1,1),color .3s ease}
+#guides .faq-ic{display:inline-block;transition:transform .5s cubic-bezier(.2,.7,.1,1),color .3s ease}
+@media (hover:hover){
+  #guides .faq-row:hover .faq-q{transform:translateX(10px);color:#D9B48A}
+  #guides .faq-row:hover .faq-ic{transform:rotate(90deg);color:#D9B48A}
+  #guides .faq-row:hover::before{background:linear-gradient(90deg,#D9B48A,#2A2D2C 70%)}
+}
+@media (prefers-reduced-motion: reduce){
+  #guides *,#guides *::before{transition:none !important;transform:none !important}
+}
+</style>
+<style>
+/* Footer: Berlin CTA + contacts + social + legal */
+.i-berlin{background-image:linear-gradient(180deg,rgba(11,12,12,0.22),rgba(11,12,12,0.06) 40%,rgba(11,12,12,0.6)),url(assets/i-berlin-059c9894.webp);background-size:cover;background-position:center 18%}
+.site-foot{padding:0 20px}
+.f-in{padding-top:64px;padding-bottom:28px}
+.f-row{display:grid;grid-template-columns:240px minmax(0,1fr);gap:32px;padding:36px 0;border-top:1px solid #1E2120;align-items:start}
+.f-title{margin:0;font-size:28px;font-weight:500;letter-spacing:-0.03em;line-height:1.1}
+.f-cols{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px}
+.f-cols > div{display:flex;flex-direction:column;align-items:flex-start;gap:4px;min-width:0}
+.f-k{font-size:13px;color:#6F6B65;margin-bottom:6px}
+.f-v{font-size:16px;line-height:1.5;color:#F2EEE8;overflow-wrap:anywhere}
+a.f-v{background:linear-gradient(#D9B48A,#D9B48A) 0 100%/0 1px no-repeat;transition:background-size .4s ease,color .3s ease}
+a.f-v:hover{background-size:100% 1px;color:#D9B48A}
+.f-s{font-size:14px;color:#A8A39B}
+.f-social{display:flex;gap:12px;flex-wrap:wrap}
+.f-ic{width:52px;height:52px;border-radius:50%;display:grid;place-items:center;color:#F2EEE8;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.14);
+  transition:background-color .3s ease,color .3s ease,border-color .3s ease,transform .4s cubic-bezier(.2,.7,.1,1)}
+.f-ic:hover,.f-ic:focus-visible{background:#D9B48A;border-color:#D9B48A;color:#0B0C0C;transform:translateY(-3px)}
+.f-bottom{border-top:1px solid #1E2120;padding-top:28px;display:flex;flex-direction:column;gap:20px}
+.f-nav,.f-legal nav{display:flex;flex-wrap:wrap;gap:8px 28px}
+.f-nav a{font-size:15px;color:#CFC9C0;transition:color .3s ease}
+.f-nav a:hover{color:#D9B48A}
+.f-legal{display:flex;justify-content:space-between;align-items:center;gap:12px 24px;flex-wrap:wrap;font-size:13px;color:#6F6B65}
+.f-legal nav a,.f-cookie{font:inherit;font-size:13px;color:#A8A39B;background:none;border:0;padding:0;cursor:pointer;transition:color .3s ease}
+.f-legal nav a:hover,.f-cookie:hover{color:#D9B48A}
+.f-row,.f-bottom{transition:transform 1s cubic-bezier(.16,1,.3,1) var(--d,0s),opacity .8s ease var(--d,0s)}
+.f-in.pre .f-row,.f-in.pre .f-bottom{transform:translateY(28px);opacity:0;transition:none}
+@container kk (max-width: 1100px){ .f-cols{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:28px} }
+@container kk (max-width: 900px){ .f-row{grid-template-columns:1fr;gap:20px;padding:28px 0} .f-title{font-size:24px} .f-in{padding-top:48px} }
+@container kk (max-width: 600px){ .site-foot{padding:0 12px} .f-cols{grid-template-columns:1fr;row-gap:22px} .f-legal{flex-direction:column;align-items:flex-start} }
+/* cookie consent */
+.ck-banner{position:fixed;left:20px;bottom:calc(20px + env(safe-area-inset-bottom,0px));z-index:1100;max-width:440px;padding:24px;border-radius:24px;
+  background:rgba(18,20,19,0.94);border:1px solid rgba(255,255,255,0.12);box-shadow:0 30px 80px rgba(0,0,0,.5);color:#F2EEE8;
+  font-family:'Onest','Helvetica Neue',Helvetica,sans-serif;animation:ckIn .6s cubic-bezier(.16,1,.3,1)}
+.ck-banner[hidden],.ck-modal[hidden]{display:none}
+@keyframes ckIn{from{transform:translateY(24px);opacity:0}to{transform:none;opacity:1}}
+.ck-t{margin:0 0 8px;font-size:18px;font-weight:500;letter-spacing:-0.02em}
+.ck-p{margin:0 0 18px;font-size:14px;line-height:1.55;color:#A8A39B}
+.ck-p a{color:#D9B48A}
+.ck-btns{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.ck-b{height:44px;padding:0 18px;border-radius:999px;border:1px solid rgba(255,255,255,0.18);background:transparent;color:#F2EEE8;font:inherit;font-size:14px;font-weight:500;cursor:pointer}
+.ck-b:hover{border-color:#D9B48A}
+.ck-primary{background:#D9B48A;border-color:#D9B48A;color:#0B0C0C;font-weight:600}
+.ck-link{border-color:transparent;text-decoration:underline;text-underline-offset:3px;padding:0 8px}
+.ck-modal{position:fixed;top:0;left:0;right:0;bottom:0;z-index:1150;display:grid;place-items:center;padding:20px;background:rgba(0,0,0,0.6);
+  font-family:'Onest','Helvetica Neue',Helvetica,sans-serif}
+.ck-card{width:100%;max-width:520px;padding:28px;border-radius:28px;background:#121413;border:1px solid rgba(255,255,255,0.12);color:#F2EEE8}
+.ck-opt{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:16px 0;border-top:1px solid #1E2120;cursor:pointer}
+.ck-opt:last-of-type{margin-bottom:12px}
+.ck-opt span{display:flex;flex-direction:column;gap:4px} .ck-opt b{font-weight:500;font-size:15px} .ck-opt small{font-size:13px;color:#A8A39B}
+.ck-opt input{width:20px;height:20px;accent-color:#D9B48A;flex:none}
+@media (max-width:520px){ .ck-banner{left:12px;right:12px;max-width:none} }
+@media (prefers-reduced-motion: reduce){ .ck-banner{animation:none} .f-row,.f-bottom,.f-ic{transition:none !important;transform:none !important} }
+</style>
+<style>
+/* Footer CTA: compact, lighter card sitting low so the Berlin view stays visible */
+#quiz.cta{min-height:720px;align-items:flex-end !important;padding:40px 40px 44px}
+#quiz .cta-card{max-width:540px !important;padding:30px 36px !important;gap:14px !important;border-radius:28px !important;
+  background:rgba(11,12,12,0.22);-webkit-backdrop-filter:blur(8px) saturate(130%);backdrop-filter:blur(8px) saturate(130%);border-color:rgba(255,255,255,0.16)}
+#quiz .cta-card .h2{font-size:clamp(30px,3.4vw,46px) !important}
+#quiz .cta-card p{font-size:16px !important}
+#quiz .cta-card a{height:50px !important;padding:0 26px !important;font-size:16px !important;margin-top:4px !important}
+@container kk (max-width: 900px){ #quiz.cta{min-height:620px;padding:16px 16px 24px} }
+@container kk (max-width: 600px){ #quiz.cta{min-height:560px} #quiz .cta-card{padding:24px 20px !important} }
+</style>
+<style>
+.f-credit{color:#6F6B65;text-decoration:underline;text-underline-offset:2px}
+.f-credit:hover{color:#D9B48A}
+/* Lead popup */
+.lead-modal{position:fixed;top:0;left:0;right:0;bottom:0;z-index:1200;display:grid;place-items:center;padding:20px;background:rgba(5,6,6,0.66);
+  -webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);font-family:'Onest','Helvetica Neue',Helvetica,sans-serif;animation:leadFade .35s ease}
+.lead-modal[hidden],.lead-form[hidden]{display:none}
+.lead-modal,.lead-modal *,.ck-banner,.ck-banner *,.ck-modal,.ck-modal *{box-sizing:border-box}
+.lead-card{position:relative;width:100%;max-width:460px;max-height:calc(100% - 20px);overflow:auto;padding:36px 32px 32px;border-radius:28px;background:#121413;
+  border:1px solid rgba(255,255,255,0.12);box-shadow:0 40px 100px rgba(0,0,0,.6);color:#F2EEE8;animation:leadIn .5s cubic-bezier(.16,1,.3,1)}
+@keyframes leadFade{from{opacity:0}to{opacity:1}}
+@keyframes leadIn{from{opacity:0;transform:translateY(24px) scale(.98)}to{opacity:1;transform:none}}
+.lead-x{position:absolute;top:16px;right:16px;width:40px;height:40px;border-radius:50%;display:grid;place-items:center;border:1px solid rgba(255,255,255,0.14);
+  background:transparent;color:#CFC9C0;cursor:pointer;transition:background-color .3s,color .3s,transform .4s}
+.lead-x:hover{background:#D9B48A;color:#0B0C0C;transform:rotate(90deg)}
+.lead-form{display:flex;flex-direction:column;gap:14px;margin:0}
+.lead-eyebrow{margin:0;font-size:12px;letter-spacing:0.18em;text-transform:uppercase;color:#D9B48A}
+.lead-h{margin:0;font-size:30px;font-weight:500;letter-spacing:-0.03em;line-height:1.1}
+.lead-sub{margin:0 0 6px;font-size:15px;line-height:1.5;color:#A8A39B}
+.lead-f{display:flex;flex-direction:column;gap:6px}
+.lead-f span{font-size:13px;color:#A8A39B}
+.lead-f input{height:52px;padding:0 18px;border-radius:14px;border:1px solid rgba(255,255,255,0.14);background:rgba(255,255,255,0.04);color:#F2EEE8;
+  font:inherit;font-size:16px;outline:none;transition:border-color .25s,background-color .25s}
+.lead-f input::placeholder{color:#6F6B65}
+.lead-f input:focus{border-color:#D9B48A;background:rgba(255,255,255,0.07)}
+.lead-f input.bad{border-color:#E07A5F}
+.lead-consent{display:flex;gap:12px;align-items:flex-start;font-size:13px;line-height:1.5;color:#A8A39B;cursor:pointer;margin-top:2px}
+.lead-consent input{width:18px;height:18px;margin:2px 0 0;accent-color:#D9B48A;flex:none}
+.lead-consent a{color:#D9B48A}
+.lead-consent.bad span{color:#E07A5F}
+.lead-err{margin:0;min-height:18px;font-size:13px;color:#E07A5F}
+.lead-submit{height:54px;padding:0 28px;border:0;border-radius:999px;background:#D9B48A;color:#0B0C0C;font:inherit;font-size:16px;font-weight:600;cursor:pointer;
+  display:inline-flex;align-items:center;justify-content:center;gap:10px;transition:transform .3s,box-shadow .3s,background-color .3s}
+.lead-submit:hover{transform:translateY(-2px);box-shadow:0 12px 30px rgba(217,180,138,.25);background:#E3C39E}
+.lead-submit:disabled{opacity:.6;cursor:default;transform:none}
+.lead-done{display:flex;flex-direction:column;align-items:center;text-align:center;gap:12px;padding:12px 0 4px}
+.lead-done[hidden]{display:none}
+.lead-check{width:64px;height:64px;border-radius:50%;display:grid;place-items:center;background:rgba(217,180,138,.15);color:#D9B48A;margin-bottom:6px}
+/* CTA button feels clickable */
+#quiz .cta-card a{cursor:pointer;transition:transform .3s,box-shadow .3s,background-color .3s}
+#quiz .cta-card a:hover{transform:translateY(-2px);box-shadow:0 12px 30px rgba(217,180,138,.3);background:#E3C39E}
+@media (max-width:520px){ .lead-card{padding:32px 22px 24px;border-radius:24px} .lead-h{font-size:26px} }
+@media (prefers-reduced-motion: reduce){ .lead-modal,.lead-card{animation:none} }
+</style>
+<style>
+/* Lead popup with image */
+.lead-card{max-width:880px !important;padding:0 !important;display:grid;grid-template-columns:minmax(0,0.95fr) minmax(0,1fr);overflow:hidden !important}
+.lead-media{position:relative;min-height:100%;background-size:cover !important;background-position:42% center !important;animation:leadZoom 8s ease-out both}
+.lead-media-cap{position:absolute;left:20px;right:20px;bottom:20px;display:flex;align-items:center;gap:12px;padding:14px 16px;border-radius:18px;font-size:13px;color:#CFC9C0;line-height:1.35}
+.lead-media-cap b{font-size:26px;font-weight:500;letter-spacing:-0.03em;color:#F2EEE8}
+@keyframes leadZoom{from{transform:scale(1.08)}to{transform:scale(1)}}
+.lead-body{position:relative;padding:40px 36px 32px;overflow:auto;max-height:calc(100vh - 40px)}
+@media (max-width:760px){
+  .lead-card{grid-template-columns:1fr;max-width:480px !important;max-height:calc(100% - 10px);overflow:auto !important}
+  .lead-media{min-height:150px;height:150px;animation:none}
+  .lead-media-cap{left:14px;right:14px;bottom:12px;padding:10px 12px}
+  .lead-media-cap b{font-size:20px}
+  .lead-body{padding:28px 22px 24px;max-height:none;overflow:visible}
+}
+/* Legal modal */
+.lg-modal{position:fixed;top:0;left:0;right:0;bottom:0;z-index:1180;display:grid;place-items:center;padding:20px;background:rgba(5,6,6,0.7);
+  -webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);font-family:'Onest','Helvetica Neue',Helvetica,sans-serif;animation:leadFade .3s ease}
+.lg-modal[hidden]{display:none}
+.lg-modal,.lg-modal *{box-sizing:border-box}
+.lg-card{position:relative;width:100%;max-width:780px;height:min(86vh,860px);display:flex;flex-direction:column;border-radius:28px;background:#121413;
+  border:1px solid rgba(255,255,255,0.12);box-shadow:0 40px 100px rgba(0,0,0,.6);color:#F2EEE8;overflow:hidden;animation:leadIn .5s cubic-bezier(.16,1,.3,1)}
+.lg-head{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:16px 16px 16px 20px;border-bottom:1px solid #1E2120;flex:none}
+.lg-tabs{display:flex;gap:6px;flex-wrap:wrap}
+.lg-tabs button{height:40px;padding:0 16px;border-radius:999px;border:1px solid transparent;background:transparent;color:#A8A39B;font:inherit;font-size:14px;cursor:pointer;transition:color .25s,background-color .25s,border-color .25s}
+.lg-tabs button:hover{color:#F2EEE8}
+.lg-tabs button[aria-current="true"]{background:rgba(217,180,138,0.14);border-color:rgba(217,180,138,0.35);color:#D9B48A}
+.lg-x{position:static !important;flex:none}
+.lg-body{flex:1;overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;padding:28px 40px 48px;outline:none;scrollbar-width:thin;scrollbar-color:#3A3D3C transparent}
+.lg-body::-webkit-scrollbar{width:8px} .lg-body::-webkit-scrollbar-thumb{background:#3A3D3C;border-radius:8px}
+.lg-title{margin:0 0 8px;font-size:34px;font-weight:500;letter-spacing:-0.03em}
+.lg-content{font-size:15px;line-height:1.65;color:#CFC9C0;max-width:640px}
+.lg-content .lg-lead{color:#A8A39B;margin:0 0 20px}
+.lg-content h4{margin:28px 0 8px;font-size:17px;font-weight:500;color:#F2EEE8;letter-spacing:-0.01em}
+.lg-content p{margin:0 0 12px}
+.lg-content mark{background:rgba(217,180,138,0.16);color:#E8CFAE;border-radius:4px;padding:0 4px}
+.lg-progress{position:absolute;left:0;right:0;bottom:0;height:3px;background:transparent}
+.lg-progress span{display:block;height:100%;width:100%;background:#D9B48A;transform-origin:0 50%;transform:scaleX(0)}
+@media (max-width:600px){ .lg-modal{padding:8px} .lg-card{height:calc(100% - 8px);border-radius:22px} .lg-body{padding:22px 20px 40px} .lg-title{font-size:28px} .lg-tabs button{padding:0 12px;font-size:13px} }
+/* Cookie modal: scrollable + details */
+.ck-card{max-height:calc(100vh - 40px);overflow-y:auto;overscroll-behavior:contain}
+.ck-more{border-top:1px solid #1E2120;padding:14px 0 6px;margin-bottom:14px}
+.ck-more summary{cursor:pointer;font-size:14px;color:#D9B48A;list-style:none}
+.ck-more summary::-webkit-details-marker{display:none}
+.ck-more summary::after{content:" +";} .ck-more[open] summary::after{content:" −";}
+.ck-table{margin-top:12px;border:1px solid #1E2120;border-radius:14px;overflow:hidden;font-size:13px}
+.ck-tr{display:grid;grid-template-columns:1.1fr 2fr 1fr;gap:10px;padding:10px 12px;border-top:1px solid #1E2120;color:#CFC9C0}
+.ck-tr:first-child{border-top:0} .ck-th{color:#6F6B65;background:rgba(255,255,255,0.03)}
+.ck-tr span{overflow-wrap:anywhere}
+.ck-note{margin:12px 0 0;font-size:13px;line-height:1.5;color:#A8A39B} .ck-note a{color:#D9B48A}
+/* CTA reacts to the cursor */
+#quiz{isolation:isolate}
+#quiz .cta-bg{position:absolute;top:-4%;left:-4%;right:-4%;bottom:-4%;z-index:-1;background-size:cover;background-repeat:no-repeat;pointer-events:none;
+  transform:translate3d(var(--bx,0px),var(--by,0px),0) scale(var(--bs,1));will-change:transform}
+#quiz .cta-glow{position:absolute;top:0;left:0;right:0;bottom:0;z-index:-1;pointer-events:none;opacity:0;transition:opacity .6s ease;
+  background:radial-gradient(520px circle at var(--gx,50%) var(--gy,50%),rgba(255,214,160,0.18),transparent 60%)}
+#quiz.is-hover .cta-glow{opacity:1}
+#quiz .cta-card{transform:perspective(1000px) rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg)) translate3d(var(--cx,0px),var(--cy,0px),0);will-change:transform}
+#quiz .cta-card::before{content:"";position:absolute;top:0;left:0;right:0;bottom:0;border-radius:inherit;pointer-events:none;opacity:0;transition:opacity .5s ease;
+  background:radial-gradient(300px circle at var(--hx,50%) var(--hy,50%),rgba(255,255,255,0.14),transparent 65%)}
+#quiz.is-hover .cta-card::before{opacity:1}
+#quiz .cta-card{position:relative}
+#quiz .cta-card a{transform:translate3d(var(--mx,0px),var(--my,0px),0)}
+#quiz .cta-card a:hover{transform:translate3d(var(--mx,0px),calc(var(--my,0px) - 2px),0)}
+</style>
+</head>
+<body>
+<div class="top-bar">
+  <header class="wrap hdr" style="width: 100%">
+    <a href="#top" style="display: flex; align-items: center; gap: 10px; font-size: 20px; font-weight: 600; letter-spacing: -0.02em">
+      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="9" cy="14" r="5"></circle><path d="M14 14h11M21 14v4M25 14v3"></path></svg>
+      Kiez &amp; Key
+    </a>
+    <nav class="glass nav" style="gap: 4px; padding: 6px; border-radius: 999px" aria-label="Main">
+      <a href="#homes" style="padding: 10px 18px; border-radius: 999px; font-size: 14px; background: rgba(255,255,255,0.1)">Homes</a>
+      <a href="#relocation" style="padding: 10px 18px; border-radius: 999px; font-size: 14px">How it works</a>
+      <a href="#areas" style="padding: 10px 18px; border-radius: 999px; font-size: 14px">Neighbourhoods</a>
+      <a href="#reviews" style="padding: 10px 18px; border-radius: 999px; font-size: 14px">Reviews</a>
+      <a href="#guides" style="padding: 10px 18px; border-radius: 999px; font-size: 14px">FAQ</a>
+    </nav>
+    <div style="display: flex; align-items: center; gap: 10px">
+      <button class="glass lang" style="height: 44px; padding: 0 16px; border-radius: 999px; color: #F2EEE8; font: inherit; font-size: 13px; cursor: pointer">EN · DE</button>
+      <a href="#quiz" class="hdr-cta" style="height: 44px; padding: 0 22px; align-items: center; border-radius: 999px; background: #F2EEE8; color: #0B0C0C; font-size: 14px; font-weight: 600">Free consultation</a>
+      <button class="glass menu-btn" aria-label="Open menu" style="width: 44px; height: 44px; border-radius: 999px; color: #F2EEE8; cursor: pointer; align-items: center; justify-content: center"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M3 6h12M3 12h12"></path></svg></button>
+    </div>
+  </header>
+</div>
+<div class="kk" style="font-family: 'Onest', 'Helvetica Neue', Helvetica, sans-serif; color: #F2EEE8; background: #0B0C0C; min-width: 0">
+<section id="top" class="hs">
+  <div class="stage">
+    <div class="stage-media">
+      <video class="stage-video" muted playsinline preload="none" disablepictureinpicture aria-hidden="true" tabindex="-1" poster="assets/hero-poster.webp"><source src="https://res.cloudinary.com/bq6p1nf0/video/upload/ki_0.2,q_auto:good/v1791643797/motion_2.0-fast_Smooth_cinematic_transition_from_dusk_to_deep_starry_night._The_evening_sky_grad-0_1.mp4" type="video/mp4"></video><script>(function(){var v=document.querySelector('.stage-video');if(window.innerWidth<760){v.poster='assets/hero-poster-720.webp';v.querySelector('source').src='https://res.cloudinary.com/bq6p1nf0/video/upload/w_720,ki_0.2,q_auto:good/v1791643797/motion_2.0-fast_Smooth_cinematic_transition_from_dusk_to_deep_starry_night._The_evening_sky_grad-0_1.mp4';}})();</script>
+      <div class="stage-shade"></div>
+    </div>
+    <div class="stage-copy">
+      <div class="wrap">
+      <div class="hero-copy">
+        <p style="margin: 0 0 24px; font-size: 13px; letter-spacing: 0.18em; text-transform: uppercase; color: #D9B48A">Design-led homes &amp; relocation · Berlin</p>
+        <h1 class="h1" style="margin: 0; line-height: 0.95; font-weight: 500; letter-spacing: -0.045em; max-width: 960px">Your Berlin home, without the bureaucracy</h1>
+        <p style="margin: 28px 0 0; font-size: 19px; line-height: 1.55; color: #CFC9C0; max-width: 560px; font-weight: 300">Hand-picked new builds, lofts and houses in Berlin's best neighbourhoods — secured and ready, so you arrive to keys, not paperwork.</p>
+        <div style="display: flex; gap: 12px; margin-top: 36px; flex-wrap: wrap">
+          <a href="#quiz" style="height: 56px; padding: 0 30px; display: inline-flex; align-items: center; gap: 10px; border-radius: 999px; background: #D9B48A; color: #0B0C0C; font-size: 16px; font-weight: 600">Find my home
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 9h12M10 4l5 5-5 5"></path></svg></a>
+          <a href="#homes" class="glass" style="height: 56px; padding: 0 28px; display: inline-flex; align-items: center; border-radius: 999px; font-size: 16px">See available homes</a>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="cue" aria-hidden="true">Scroll<i></i></div>
+  </div>
+</section>
+<div class="after">
+  <div class="wrap search-block">
+    <form class="glass search" style="border-radius: 28px; padding: 10px" aria-label="Search homes" action="#homes" data-search>
+      <div class="mode" style="display: flex; padding: 4px; gap: 4px; border-radius: 20px; background: rgba(0,0,0,0.25)">
+        <button type="button" style="min-width: 80px; height: 60px; border: 0; border-radius: 16px; background: #F2EEE8; color: #0B0C0C; font: inherit; font-weight: 600; cursor: pointer">Rent</button>
+        <button type="button" style="min-width: 80px; height: 60px; border: 0; border-radius: 16px; background: transparent; color: #F2EEE8; font: inherit; cursor: pointer">Buy</button>
+      </div>
+      <label class="field" style="display: flex; flex-direction: column; justify-content: center; gap: 4px; padding: 10px 20px">
+        <span style="font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: #A8A39B">Neighbourhood</span>
+        <input type="text" name="area" placeholder="Mitte, Charlottenburg…" style="background: transparent; border: 0; outline: none; color: #F2EEE8; font: inherit; font-size: 16px; padding: 0; min-width: 0">
+      </label>
+      <label class="field" style="display: flex; flex-direction: column; justify-content: center; gap: 4px; padding: 10px 20px">
+        <span style="font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: #A8A39B">Budget</span>
+        <input type="text" name="budget" placeholder="€2,500 – €6,000 / month" style="background: transparent; border: 0; outline: none; color: #F2EEE8; font: inherit; font-size: 16px; padding: 0; min-width: 0">
+      </label>
+      <label class="field" style="display: flex; flex-direction: column; justify-content: center; gap: 4px; padding: 10px 20px">
+        <span style="font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: #A8A39B">Move-in</span>
+        <input type="text" name="movein" placeholder="Any date" style="background: transparent; border: 0; outline: none; color: #F2EEE8; font: inherit; font-size: 16px; padding: 0; min-width: 0">
+      </label>
+      <button type="submit" class="search-go" style="min-height: 68px; padding: 0 36px; border: 0; border-radius: 20px; background: #D9B48A; color: #0B0C0C; font: inherit; font-size: 16px; font-weight: 600; display: inline-flex; align-items: center; justify-content: center; gap: 10px; cursor: pointer">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="8" cy="8" r="5.5"></circle><path d="M12.5 12.5L16 16"></path></svg>Search</button>
+    </form>
+    <div class="filters">
+      <button type="button" class="glass" style="height: 44px; padding: 0 18px; border-radius: 999px; color: #F2EEE8; font: inherit; font-size: 14px; cursor: pointer">Fully furnished</button>
+      <button type="button" class="glass" style="height: 44px; padding: 0 18px; border-radius: 999px; color: #F2EEE8; font: inherit; font-size: 14px; cursor: pointer">New build</button>
+      <button type="button" class="glass" style="height: 44px; padding: 0 18px; border-radius: 999px; color: #F2EEE8; font: inherit; font-size: 14px; cursor: pointer">House with garden</button>
+      <button type="button" class="glass" style="height: 44px; padding: 0 18px; border-radius: 999px; color: #F2EEE8; font: inherit; font-size: 14px; cursor: pointer">Balcony or terrace</button>
+    </div>
+  </div>
+  <section id="why" class="wrap sec" style="padding-bottom: 0">
+  <div class="sec-head" style="margin-bottom: 36px">
+    <h2 class="h2" style="margin: 0; line-height: 1; font-weight: 500; letter-spacing: -0.04em; max-width: 820px">Berlin is hard to rent in. <span style="color: #6F6B65">We make it easy</span></h2>
+  </div>
+  <div class="pains">
+    <div style="border-radius: 24px; padding: 26px 28px; background: #141615; border: 1px solid #232625; display: flex; flex-direction: column; gap: 10px">
+      <div style="display: flex; justify-content: space-between; align-items: center; gap: 12px; min-height: 26px"><span style="font-size: 14px; color: #D9B48A">01</span></div>
+      <span style="font-size: 21px; font-weight: 500; letter-spacing: -0.02em; line-height: 1.2">Good flats go fast</span>
+      <span style="font-size: 15px; line-height: 1.55; color: #A8A39B">Your documents are ready, so you apply the same day.</span>
+    </div>
+    <div style="border-radius: 24px; padding: 26px 28px; background: #141615; border: 1px solid #232625; display: flex; flex-direction: column; gap: 10px">
+      <div style="display: flex; justify-content: space-between; align-items: center; gap: 12px; min-height: 26px"><span style="font-size: 14px; color: #D9B48A">02</span></div>
+      <span style="font-size: 21px; font-weight: 500; letter-spacing: -0.02em; line-height: 1.2">Contracts in German</span>
+      <span style="font-size: 15px; line-height: 1.55; color: #A8A39B">We explain every key term in English before you sign.</span>
+    </div>
+    <div style="border-radius: 24px; padding: 26px 28px; background: #17150F; border: 1px solid #D9B48A; display: flex; flex-direction: column; gap: 10px">
+      <div style="display: flex; justify-content: space-between; align-items: center; gap: 12px; min-height: 26px"><span style="font-size: 14px; color: #D9B48A">03</span><span style="padding: 5px 10px; border-radius: 999px; background: #D9B48A; color: #0B0C0C; font-size: 12px; font-weight: 600">You can still rent</span></div>
+      <span style="font-size: 21px; font-weight: 500; letter-spacing: -0.02em; line-height: 1.2">No German credit history?</span>
+      <span style="font-size: 15px; line-height: 1.55; color: #A8A39B">Legal and common. We show landlords your income instead.</span>
+    </div>
+  </div>
+</section><section id="homes" class="wrap sec">
+  <div class="sec-head">
+    <div>
+      <p style="margin: 0 0 20px; font-size: 13px; letter-spacing: 0.18em; text-transform: uppercase; color: #D9B48A">Fresh this week</p>
+      <h2 class="h2" style="margin: 0; line-height: 1; font-weight: 500; letter-spacing: -0.04em">Homes ready for you</h2>
+    </div>
+    <div style="display: flex; align-items: center; gap: 12px">
+      <a href="#all" style="font-size: 15px; margin-right: 12px; border-bottom: 1px solid #6F6B65; padding-bottom: 4px">View all homes</a>
+      <button aria-label="Previous" style="width: 52px; height: 52px; border-radius: 999px; border: 1px solid #3A3D3C; background: transparent; color: #F2EEE8; cursor: pointer"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M15 9H3M8 4L3 9l5 5"></path></svg></button>
+      <button aria-label="Next" style="width: 52px; height: 52px; border-radius: 999px; border: 0; background: #F2EEE8; color: #0B0C0C; cursor: pointer"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 9h12M10 4l5 5-5 5"></path></svg></button>
+    </div>
+  </div>
+  <div class="homes" data-homes>
+    <article class="ph i-penthouse home" style="border-radius: 32px; display: flex; flex-direction: column; justify-content: space-between; padding: 16px">
+      <div style="display: flex; justify-content: flex-end; gap: 8px">
+        <span class="glass" style="padding: 8px 14px; border-radius: 999px; font-size: 13px">New build</span>
+        <button class="glass" aria-label="Save" style="width: 44px; height: 44px; border-radius: 999px; color: #F2EEE8; cursor: pointer"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M9 15s-6-3.6-6-8a3.2 3.2 0 0 1 6-1.6A3.2 3.2 0 0 1 15 7c0 4.4-6 8-6 8z"></path></svg></button>
+      </div>
+      <div class="glass" style="border-radius: 22px; padding: 22px; display: flex; flex-direction: column; gap: 10px">
+        <span style="font-size: 13px; color: #CFC9C0">Mitte</span>
+        <span style="font-size: 20px; font-weight: 500; letter-spacing: -0.02em">Loft with double-height windows</span>
+        <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; margin-top: 6px">
+          <span style="font-size: 26px; font-weight: 600; letter-spacing: -0.03em">€3,900<span style="font-size: 13px; font-weight: 400; color: #CFC9C0"> / mo</span></span>
+          <span style="font-size: 14px; color: #CFC9C0">110 m² · 3 rooms</span>
+        </div>
+      </div>
+    </article>
+    <article class="ph i-newbuild home" style="border-radius: 32px; display: flex; flex-direction: column; justify-content: space-between; padding: 16px">
+      <div style="display: flex; justify-content: flex-end; gap: 8px">
+        <span class="glass" style="padding: 8px 14px; border-radius: 999px; font-size: 13px">Balcony</span>
+        <button class="glass" aria-label="Save" style="width: 44px; height: 44px; border-radius: 999px; color: #F2EEE8; cursor: pointer"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M9 15s-6-3.6-6-8a3.2 3.2 0 0 1 6-1.6A3.2 3.2 0 0 1 15 7c0 4.4-6 8-6 8z"></path></svg></button>
+      </div>
+      <div class="glass" style="border-radius: 22px; padding: 22px; display: flex; flex-direction: column; gap: 10px">
+        <span style="font-size: 13px; color: #CFC9C0">Prenzlauer Berg</span>
+        <span style="font-size: 20px; font-weight: 500; letter-spacing: -0.02em">Sunlit new build with balcony</span>
+        <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; margin-top: 6px">
+          <span style="font-size: 26px; font-weight: 600; letter-spacing: -0.03em">€2,850<span style="font-size: 13px; font-weight: 400; color: #CFC9C0"> / mo</span></span>
+          <span style="font-size: 14px; color: #CFC9C0">85 m² · 3 rooms</span>
+        </div>
+      </div>
+    </article>
+    <article class="ph i-house home" style="border-radius: 32px; display: flex; flex-direction: column; justify-content: space-between; padding: 16px">
+      <div style="display: flex; justify-content: flex-end; gap: 8px">
+        <span class="glass" style="padding: 8px 14px; border-radius: 999px; font-size: 13px">Private garden</span>
+        <button class="glass" aria-label="Save" style="width: 44px; height: 44px; border-radius: 999px; color: #F2EEE8; cursor: pointer"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M9 15s-6-3.6-6-8a3.2 3.2 0 0 1 6-1.6A3.2 3.2 0 0 1 15 7c0 4.4-6 8-6 8z"></path></svg></button>
+      </div>
+      <div class="glass" style="border-radius: 22px; padding: 22px; display: flex; flex-direction: column; gap: 10px">
+        <span style="font-size: 13px; color: #CFC9C0">Zehlendorf</span>
+        <span style="font-size: 20px; font-weight: 500; letter-spacing: -0.02em">Modern family house with garden</span>
+        <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; margin-top: 6px">
+          <span style="font-size: 26px; font-weight: 600; letter-spacing: -0.03em">€5,400<span style="font-size: 13px; font-weight: 400; color: #CFC9C0"> / mo</span></span>
+          <span style="font-size: 14px; color: #CFC9C0">180 m² · 5 rooms</span>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section id="relocation" class="wrap sec">
+  <div class="sec-head">
+    <div>
+      <p style="margin: 0 0 20px; font-size: 13px; letter-spacing: 0.18em; text-transform: uppercase; color: #D9B48A">How it works</p>
+      <h2 class="h2" style="margin: 0; line-height: 1; font-weight: 500; letter-spacing: -0.04em; max-width: 720px">Four steps to your new front door</h2>
+    </div>
+  </div>
+  <ol class="steps" style="list-style: none; margin: 0; padding: 0">
+    <li style="border-left: 1px solid #2A2D2C; padding: 0 28px; display: flex; flex-direction: column; gap: 14px">
+      <span style="font-size: 15px; color: #D9B48A">01</span>
+      <span style="font-size: 22px; font-weight: 500; letter-spacing: -0.02em">Tell us about you</span>
+      <span style="font-size: 15px; line-height: 1.6; color: #A8A39B">A 2-minute quiz about budget, area and must-haves.</span>
+    </li>
+    <li style="border-left: 1px solid #2A2D2C; padding: 0 28px; display: flex; flex-direction: column; gap: 14px">
+      <span style="font-size: 15px; color: #D9B48A">02</span>
+      <span style="font-size: 22px; font-weight: 500; letter-spacing: -0.02em">Get a shortlist</span>
+      <span style="font-size: 15px; line-height: 1.6; color: #A8A39B">Hand-picked homes within 48 hours — verified, no fake listings.</span>
+    </li>
+    <li style="border-left: 1px solid #2A2D2C; padding: 0 28px; display: flex; flex-direction: column; gap: 14px">
+      <span style="font-size: 15px; color: #D9B48A">03</span>
+      <span style="font-size: 22px; font-weight: 500; letter-spacing: -0.02em">View from anywhere</span>
+      <span style="font-size: 15px; line-height: 1.6; color: #A8A39B">In person or a live video walkthrough with your agent.</span>
+    </li>
+    <li style="border-left: 1px solid #2A2D2C; padding: 0 28px; display: flex; flex-direction: column; gap: 14px">
+      <span style="font-size: 15px; color: #D9B48A">04</span>
+      <span style="font-size: 22px; font-weight: 500; letter-spacing: -0.02em">Move in</span>
+      <span style="font-size: 15px; line-height: 1.6; color: #A8A39B">We walk you through the contract in English, book your address registration and hand over the keys.</span>
+    </li>
+  </ol>
+</section>
+
+<!-- NEIGHBOURHOODS -->
+<section id="areas" style="padding-bottom: 0">
+  <div class="wrap sec-head">
+    <h2 class="h2" style="margin: 0; line-height: 1; font-weight: 500; letter-spacing: -0.04em; max-width: 760px">The addresses everyone asks for</h2>
+    <a href="#areas-all" style="font-size: 15px; border-bottom: 1px solid #6F6B65; padding-bottom: 4px">All neighbourhoods</a>
+  </div>
+  <div class="areas" data-areas>
+    <a href="#mitte" class="ph i-mitte area is-active">
+      <span class="area-num">01</span>
+      <div class="area-body">
+        <span class="area-name">Mitte</span>
+        <div class="area-more"><div>
+          <span class="area-desc">Gendarmenmarkt, galleries, embassies</span>
+          <span class="glass area-count">31 homes</span>
+        </div></div>
+      </div>
+    </a>
+    <a href="#charlottenburg" class="ph i-cburg area">
+      <span class="area-num">02</span>
+      <div class="area-body">
+        <span class="area-name">Charlottenburg</span>
+        <div class="area-more"><div>
+          <span class="area-desc">Ku'damm, grand Altbau, quiet elegance</span>
+          <span class="glass area-count">27 homes</span>
+        </div></div>
+      </div>
+    </a>
+    <a href="#grunewald" class="ph i-grune area">
+      <span class="area-num">03</span>
+      <div class="area-body">
+        <span class="area-name">Grunewald</span>
+        <div class="area-more"><div>
+          <span class="area-desc">Lakes, forest and quiet family homes</span>
+          <span class="glass area-count">14 homes</span>
+        </div></div>
+      </div>
+    </a>
+    <a href="#prenzlauer-berg" class="ph i-pberg area">
+      <span class="area-num">04</span>
+      <div class="area-body">
+        <span class="area-name">Prenzlauer Berg</span>
+        <div class="area-more"><div>
+          <span class="area-desc">Leafy squares and restored Altbau</span>
+          <span class="glass area-count">22 homes</span>
+        </div></div>
+      </div>
+    </a>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="reviews" class="wrap sec">
+  <div class="sec-head" style="margin-bottom: 40px">
+    <div>
+      <p style="margin: 0 0 20px; font-size: 13px; letter-spacing: 0.18em; text-transform: uppercase; color: #D9B48A">640+ families already have their keys.</p>
+      <h2 class="h2" style="margin: 0; line-height: 1; font-weight: 500; letter-spacing: -0.04em">What our clients say</h2>
+    </div>
+    <div class="stats">
+      <span class="glass" style="padding: 10px 16px; border-radius: 999px; font-size: 14px"><strong style="font-weight: 600">48 h</strong> <span style="color: #CFC9C0">to first shortlist</span></span>
+      <span class="glass" style="padding: 10px 16px; border-radius: 999px; font-size: 14px"><strong style="font-weight: 600">4.9</strong> <span style="color: #CFC9C0">on Google</span></span>
+    </div>
+  </div>
+  <div class="tst">
+    <div class="tcol">
+      <figure class="rv rv-photo rv-pic-bottom">
+        <div class="rv-text"><figcaption><span class="rv-name">Ana Ribeiro</span><span class="rv-from">Moved from Lisbon</span></figcaption>
+          <blockquote class="q">“I signed my lease from Lisbon and walked into a furnished flat two weeks later.”</blockquote></div>
+        <div class="ph i-keys rev-pic" role="img" aria-label="Portrait of Ana Ribeiro"></div>
+      </figure>
+    </div>
+    <div class="tcol">
+      <figure class="rv rv-photo rv-wide">
+        <div class="ph i-daniel rev-pic" role="img" aria-label="Portrait of Daniel Hart"></div>
+        <div class="rv-text"><figcaption><span class="rv-name">Daniel Hart</span><span class="rv-from">Moved from London</span></figcaption>
+          <blockquote class="q">“Three new-build flats shortlisted in two days, and every line of the German contract explained in English.”</blockquote></div>
+      </figure>
+    </div>
+    <div class="tcol">
+      <figure class="rv rv-photo rv-pic-bottom">
+        <div class="rv-text"><figcaption><span class="rv-name">Marta Nowak</span><span class="rv-from">Moved from Warsaw</span></figcaption>
+          <blockquote class="q">“Viewings booked around my night shifts. Keys in hand three weeks after my first call.”</blockquote></div>
+        <div class="ph i-marta rev-pic" role="img" aria-label="Portrait of Marta Nowak"></div>
+      </figure>
+    </div>
+    <div class="tcol">
+      <figure class="rv rv-photo rv-wide">
+        <div class="ph i-marco rev-pic" role="img" aria-label="Portrait of Marco Reyes"></div>
+        <div class="rv-text"><figcaption><span class="rv-name">Marco Reyes</span><span class="rv-from">Moved from Manila</span></figcaption>
+          <blockquote class="q">“They explained the Anmeldung, the deposit and the Schufa before I even asked.”</blockquote></div>
+      </figure>
+    </div>
+    <div class="tcol">
+      <figure class="rv rv-photo rv-pic-bottom">
+        <div class="rv-text"><figcaption><span class="rv-name">Sofia Marchetti</span><span class="rv-from">Moved from Milan</span></figcaption>
+          <blockquote class="q">“We found a house with a garden before we even landed. Schools and paperwork sorted too.”</blockquote></div>
+        <div class="ph i-sofia rev-pic" role="img" aria-label="Portrait of Sofia Marchetti"></div>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="guides" class="wrap faq" style="padding-bottom: 120px">
+  <div style="flex: 1 1 360px">
+    <p style="margin: 0 0 20px; font-size: 13px; letter-spacing: 0.18em; text-transform: uppercase; color: #D9B48A">FAQ</p>
+    <h2 class="h2" style="margin: 0; line-height: 1; font-weight: 500; letter-spacing: -0.04em">Questions everyone asks</h2>
+    <p style="margin: 24px 0 0; font-size: 16px; line-height: 1.6; color: #A8A39B; max-width: 360px">Still unsure? Message Lena on WhatsApp — she answers in English or German.</p>
+  </div>
+  <div style="flex: 2 1 560px; min-width: 0; display: flex; flex-direction: column">
+    <div style="border-top: 1px solid #2A2D2C; padding: 24px 0">
+      <div style="display: flex; justify-content: space-between; gap: 24px; align-items: center"><span style="font-size: 20px; font-weight: 500; letter-spacing: -0.02em">Do I need a German credit score (SCHUFA)?</span><span style="font-size: 28px; font-weight: 300; color: #D9B48A">−</span></div>
+      <p style="margin: 14px 0 0; font-size: 16px; line-height: 1.6; color: #A8A39B; max-width: 640px">SCHUFA is Germany's credit bureau, and newcomers don't have a record yet. No law requires one to rent. Many landlords accept an employment contract, payslips or bank statements instead — we focus on those landlords and prepare your documents.</p>
+    </div>
+    <div style="border-top: 1px solid #2A2D2C; padding: 24px 0; display: flex; justify-content: space-between; gap: 24px; align-items: center"><span style="font-size: 20px; font-weight: 500; letter-spacing: -0.02em">Can I rent before I arrive in Germany?</span><span style="font-size: 28px; font-weight: 300">+</span></div>
+    <div style="border-top: 1px solid #2A2D2C; padding: 24px 0; display: flex; justify-content: space-between; gap: 24px; align-items: center"><span style="font-size: 20px; font-weight: 500; letter-spacing: -0.02em">How much does your service cost?</span><span style="font-size: 28px; font-weight: 300">+</span></div>
+    <div style="border-top: 1px solid #2A2D2C; padding: 24px 0; display: flex; justify-content: space-between; gap: 24px; align-items: center"><span style="font-size: 20px; font-weight: 500; letter-spacing: -0.02em">Will you help me register my address (Anmeldung)?</span><span style="font-size: 28px; font-weight: 300">+</span></div>
+    <div style="border-top: 1px solid #2A2D2C; border-bottom: 1px solid #2A2D2C; padding: 24px 0; display: flex; justify-content: space-between; gap: 24px; align-items: center"><span style="font-size: 20px; font-weight: 500; letter-spacing: -0.02em">Which languages do you speak?</span><span style="font-size: 28px; font-weight: 300">+</span></div>
+  </div>
+</section>
+
+<!-- FOOTER: CTA + contacts + social + legal -->
+<footer class="site-foot" id="contact">
+  <div id="quiz" class="ph i-berlin cta" style="border-radius: 40px; display: flex; align-items: center; justify-content: center">
+    <div class="glass cta-card" style="max-width: 720px; width: 100%; border-radius: 32px; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 24px">
+      <h2 class="h2" style="margin: 0; line-height: 1; font-weight: 500; letter-spacing: -0.04em">Your keys are closer than you think</h2>
+      <p style="margin: 0; font-size: 18px; line-height: 1.55; color: #CFC9C0; font-weight: 300">Take the 2-minute quiz and get your first shortlist in 48 hours.</p>
+      <a href="#quiz-start" data-lead-open role="button" aria-haspopup="dialog" style="height: 60px; padding: 0 34px; display: inline-flex; align-items: center; gap: 10px; border-radius: 999px; background: #D9B48A; color: #0B0C0C; font-size: 17px; font-weight: 600; margin-top: 8px">Find my home
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 9h12M10 4l5 5-5 5"></path></svg></a>
+    </div>
+  </div>
+
+  <div class="wrap f-in">
+    <div class="f-row">
+      <h2 class="f-title">Contacts</h2>
+      <div class="f-cols">
+        <div><span class="f-k">Phone</span><a class="f-v" href="tel:+4930123456789">+49 30 1234 5678</a></div>
+        <div><span class="f-k">WhatsApp</span><a class="f-v" href="#wa">Message Lena</a><span class="f-s">English or German</span></div>
+        <div><span class="f-k">E-mail</span><a class="f-v" href="mailto:hello@kiezandkey.de">hello@kiezandkey.de</a></div>
+        <div><span class="f-k">Office</span><span class="f-v">Kastanienallee 12, 10435 Berlin</span><span class="f-s">Mon–Fri 9:00–18:00</span></div>
+      </div>
+    </div>
+    <div class="f-row">
+      <h2 class="f-title">Social</h2>
+      <div class="f-social">
+        <a class="f-ic" href="#ig" aria-label="Instagram" title="Instagram"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8.5A2.5 2.5 0 0 1 5.5 6h2l1.5-2h6l1.5 2h2A2.5 2.5 0 0 1 21 8.5v9a2.5 2.5 0 0 1-2.5 2.5h-13A2.5 2.5 0 0 1 3 17.5z"/><circle cx="12" cy="13" r="3.6"/></svg></a>
+        <a class="f-ic" href="#wa" aria-label="WhatsApp" title="WhatsApp"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 11.5a8 8 0 0 1-11.6 7.1L4 20l1.4-4.2A8 8 0 1 1 20 11.5z"/><path d="M9 9.5c.3 2.3 2.2 4.2 4.5 4.5l1-1.2 1.8.8"/></svg></a>
+        <a class="f-ic" href="#tg" aria-label="Telegram" title="Telegram"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 4 3 11l6.5 2.5L12 20l3-5 6-11z"/><path d="M9.5 13.5 21 4"/></svg></a>
+        <a class="f-ic" href="#li" aria-label="LinkedIn" title="LinkedIn"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2.5"/><path d="M8.5 7V5.5A1.5 1.5 0 0 1 10 4h4a1.5 1.5 0 0 1 1.5 1.5V7M3 12.5h18"/></svg></a>
+      </div>
+    </div>
+    <div class="f-bottom">
+      <nav class="f-nav" aria-label="Footer"><a href="#homes">Homes</a><a href="#relocation">How it works</a><a href="#areas">Neighbourhoods</a><a href="#reviews">Reviews</a><a href="#guides">FAQ</a></nav>
+      <div class="f-legal">
+        <span>© 2026 Kiez &amp; Key · <a class="f-credit" href="https://commons.wikimedia.org/wiki/File:Fernsehturm_und_Bode-Museum_bei_Sonnenaufgang,_Berlin-Mitte,_151011,_ako.jpg" target="_blank" rel="noopener noreferrer">Photo: Ansgar Koreng</a>, <a class="f-credit" href="https://creativecommons.org/licenses/by-sa/3.0/de/deed.en" target="_blank" rel="noopener noreferrer">CC BY-SA 3.0 DE</a></span>
+        <nav aria-label="Legal"><a href="#impressum">Impressum</a><a href="#datenschutz">Datenschutz</a><a href="#agb">AGB</a><button type="button" class="f-cookie" data-cookie-open>Cookie settings</button></nav>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<!-- Lead form popup -->
+<div class="lead-modal" role="dialog" aria-modal="true" aria-labelledby="lead-h" hidden>
+  <div class="lead-card">
+    <div class="lead-media i-berlin" aria-hidden="true">
+      <div class="lead-media-cap glass"><b>640+</b><span>families already have their keys in Berlin</span></div>
+    </div>
+    <div class="lead-body">
+    <button type="button" class="lead-x" data-lead-close aria-label="Close">
+      <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 4l10 10M14 4 4 14"/></svg></button>
+    <form class="lead-form" name="lead" method="POST" data-netlify="true" netlify-honeypot="bot-field" novalidate>
+      <input type="hidden" name="form-name" value="lead">
+      <p hidden><label>Leave this empty: <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+      <p class="lead-eyebrow">Free consultation</p>
+      <h3 class="lead-h" id="lead-h">Let’s find your home</h3>
+      <p class="lead-sub">Leave your details — Lena will get back to you within 24 hours.</p>
+      <label class="lead-f"><span>Name</span><input name="name" type="text" autocomplete="name" placeholder="Your name" required></label>
+      <label class="lead-f"><span>Phone</span><input name="phone" type="tel" autocomplete="tel" placeholder="+49 …" required pattern="[+0-9 ()\-]{6,}"></label>
+      <label class="lead-f"><span>E-mail</span><input name="email" type="email" autocomplete="email" placeholder="you@example.com" required></label>
+      <label class="lead-consent"><input name="consent" type="checkbox" value="yes" required><span>I agree that Kiez &amp; Key may use my details to contact me about my request. More in the <a href="#datenschutz">Datenschutz</a>.</span></label>
+      <p class="lead-err" aria-live="polite"></p>
+      <button type="submit" class="lead-submit">Send request
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 9h12M10 4l5 5-5 5"></path></svg></button>
+    </form>
+    <div class="lead-done" hidden>
+      <div class="lead-check"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></div>
+      <h3 class="lead-h">Thank you!</h3>
+      <p class="lead-sub">We’ve got your request. Lena will contact you within 24 hours.</p>
+      <button type="button" class="lead-submit" data-lead-close>Close</button>
+    </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Legal pages (Impressum / Datenschutz / AGB) -->
+<div class="lg-modal" role="dialog" aria-modal="true" aria-labelledby="lg-title" hidden>
+  <div class="lg-card">
+    <div class="lg-head">
+      <nav class="lg-tabs" aria-label="Legal pages">
+        <button type="button" data-lg="impressum">Impressum</button>
+        <button type="button" data-lg="datenschutz">Datenschutz</button>
+        <button type="button" data-lg="agb">AGB</button>
+      </nav>
+      <button type="button" class="lead-x lg-x" data-lg-close aria-label="Close">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 4l10 10M14 4 4 14"/></svg></button>
+    </div>
+    <div class="lg-body" tabindex="0">
+      <h3 class="lg-title" id="lg-title"></h3>
+      <div class="lg-content"></div>
+    </div>
+    <div class="lg-progress" aria-hidden="true"><span></span></div>
+  </div>
+</div>
+<template id="legal-impressum">
+  <p class="lg-lead">Information pursuant to § 5 DDG (Digitale-Dienste-Gesetz)</p>
+  <h4>Provider</h4>
+  <p><mark>[Kiez &amp; Key GmbH]</mark><br>Kastanienallee 12<br>10435 Berlin<br>Germany</p>
+  <h4>Represented by</h4>
+  <p>Managing director: <mark>[First name Last name]</mark></p>
+  <h4>Contact</h4>
+  <p>Phone: <mark>[+49 30 1234 5678]</mark><br>E-mail: hello@kiezandkey.de</p>
+  <h4>Register entry</h4>
+  <p>Registered in the commercial register (Handelsregister)<br>Register court: <mark>[Amtsgericht Charlottenburg]</mark><br>Register number: <mark>[HRB 000000 B]</mark></p>
+  <h4>VAT ID</h4>
+  <p>VAT identification number according to § 27a UStG: <mark>[DE000000000]</mark></p>
+  <h4>Licence as real estate agent</h4>
+  <p>Permit pursuant to § 34c GewO (Immobilienmakler) issued by: <mark>[Bezirksamt Pankow von Berlin, Ordnungsamt / Gewerbeangelegenheiten]</mark>, <mark>[address]</mark>.<br>Professional title: Immobilienmakler (Germany).</p>
+  <h4>Responsible for content</h4>
+  <p>Responsible pursuant to § 18 (2) MStV: <mark>[First name Last name]</mark>, address as above.</p>
+  <h4>Consumer dispute resolution</h4>
+  <p>We are neither willing nor obliged to take part in dispute resolution proceedings before a consumer arbitration board (§ 36 VSBG).</p>
+  <h4>Liability for content and links</h4>
+  <p>We create the content of this website with great care, but we cannot guarantee that it is complete, correct or up to date. As a service provider we are responsible for our own content under general law (§ 7 DDG). We are not obliged to monitor third-party information that is transmitted or stored. Our site contains links to external websites over whose content we have no influence; the respective provider is always responsible for linked pages. If we become aware of any legal violation, we will remove the content or link immediately.</p>
+  <h4>Copyright</h4>
+  <p>Texts, images and design on this website are protected by German copyright law. Any use beyond the limits of copyright requires our written consent. Photo in the footer: Ansgar Koreng, Wikimedia Commons, licensed under CC BY-SA 3.0 DE.</p>
+</template>
+
+<template id="legal-datenschutz">
+  <p class="lg-lead">Privacy policy according to the EU General Data Protection Regulation (GDPR). Last updated: <mark>[October 2026]</mark></p>
+  <h4>1. Controller</h4>
+  <p><mark>[Kiez &amp; Key GmbH]</mark>, Kastanienallee 12, 10435 Berlin, Germany<br>E-mail: hello@kiezandkey.de · Phone: <mark>[+49 30 1234 5678]</mark></p>
+  <p>Data protection contact: <mark>[name or external data protection officer, if appointed]</mark>, privacy@kiezandkey.de</p>
+  <h4>2. Overview</h4>
+  <p>We only process personal data when this is necessary to run this website, to answer your request or to provide our services. Below you will find which data we process, for what purpose, on which legal basis and for how long.</p>
+  <h4>3. Hosting and server log files</h4>
+  <p>This website is hosted by Netlify, Inc., 101 2nd Street, San Francisco, CA 94105, USA. Data may be processed in the USA; the transfer is based on the EU standard contractual clauses and the EU–US Data Privacy Framework. When you visit the site, your browser automatically transmits data that is stored in server log files: IP address, date and time of the request, page requested, referrer URL, browser type and operating system. We need this data to deliver the website securely and stably. Legal basis: Art. 6 (1) (f) GDPR (legitimate interest in a secure and functioning website). Log files are deleted after <mark>[7]</mark> days. We have concluded a data processing agreement with the host (Art. 28 GDPR).</p>
+  <h4>4. Contact form and consultation request</h4>
+  <p>If you send us a request via the “Find my home” form, we process your name, phone number, e-mail address, your consent and the time of the request in order to contact you and to prepare an offer. Legal basis: Art. 6 (1) (b) GDPR (pre-contractual measures) and your consent, Art. 6 (1) (a) GDPR. The form is processed by our hosting provider Netlify, Inc. (Netlify Forms), 101 2nd Street, San Francisco, CA 94105, USA, on the basis of a data processing agreement and the EU standard contractual clauses. We delete the data when your request has been fully dealt with, unless statutory retention periods apply or a contract is concluded.</p>
+  <h4>5. Contact by e-mail, phone and WhatsApp</h4>
+  <p>If you contact us by e-mail or phone, we process the data you provide to answer your request (Art. 6 (1) (b) or (f) GDPR). If you choose to write to us via WhatsApp, WhatsApp Ireland Ltd. also processes your data; WhatsApp may transfer data to Meta Platforms Inc. in the USA. Please only use WhatsApp if you agree with this. Further information: WhatsApp privacy policy.</p>
+  <h4>6. Cookies and local storage</h4>
+  <p>We only use technically necessary storage without your consent. When you make a choice in the cookie banner, we store it in your browser (key “kk-cookie-consent”) so that we do not ask you again. Legal basis: § 25 (2) TDDDG and Art. 6 (1) (f) GDPR. Analytics or marketing tools are only activated if you give your consent (§ 25 (1) TDDDG, Art. 6 (1) (a) GDPR). At present we do not use any such tools. You can change or withdraw your choice at any time via “Cookie settings” in the footer.</p>
+  <h4>7. Fonts</h4>
+  <p>The font “Onest” is hosted on our own server. No connection to Google or other font providers is made when you visit this website.</p>
+  <h4>8. Recipients and transfers to third countries</h4>
+  <p>We only pass on your data where this is necessary: to our hosting provider, Netlify Forms and — if you commission us — to landlords or property managers you have agreed to. Where data is transferred to countries outside the EU/EEA, we ensure an adequate level of protection, e.g. via an adequacy decision of the EU Commission or standard contractual clauses.</p>
+  <h4>9. Storage period</h4>
+  <p>We delete personal data as soon as the purpose ceases to apply. Statutory retention obligations (e.g. 6 years under commercial law, 10 years under tax law) remain unaffected.</p>
+  <h4>10. Your rights</h4>
+  <p>You have the right to access (Art. 15 GDPR), rectification (Art. 16), erasure (Art. 17), restriction of processing (Art. 18), data portability (Art. 20) and to object to processing based on legitimate interests (Art. 21). You can withdraw any consent at any time with effect for the future (Art. 7 (3) GDPR). To exercise your rights, simply write to privacy@kiezandkey.de.</p>
+  <h4>11. Right to lodge a complaint</h4>
+  <p>You have the right to complain to a data protection supervisory authority. The authority responsible for us is: Berliner Beauftragte für Datenschutz und Informationsfreiheit, Alt-Moabit 59–61, 10555 Berlin.</p>
+  <h4>12. Data security</h4>
+  <p>This website uses SSL/TLS encryption. You can recognise an encrypted connection by “https://” and the lock symbol in your browser’s address bar.</p>
+</template>
+
+<template id="legal-agb">
+  <p class="lg-lead">General Terms and Conditions (Allgemeine Geschäftsbedingungen) of <mark>[Kiez &amp; Key GmbH]</mark>, Berlin. Version: <mark>[October 2026]</mark></p>
+  <h4>§ 1 Scope</h4>
+  <p>These terms apply to all contracts between Kiez &amp; Key (“we”) and our clients (“you”) for the search and brokerage of residential rental property in Berlin and related relocation services. Deviating terms of the client only apply if we expressly agree to them in writing.</p>
+  <h4>§ 2 Our services</h4>
+  <p>Depending on the package booked, our services include: analysing your requirements, searching for suitable homes, arranging and accompanying viewings (also remotely by video), checking and explaining rental contracts in English, preparing your application documents and supporting you with the address registration (Anmeldung). We act as a broker; the rental contract itself is concluded directly between you and the landlord. We cannot guarantee that a rental contract will be concluded.</p>
+  <h4>§ 3 Conclusion of contract</h4>
+  <p>The presentation of our services on this website is not a binding offer. A contract is only concluded when you place a search order (Suchauftrag) in text form, e.g. by e-mail, and we confirm it. A request via the contact form is not yet an order.</p>
+  <h4>§ 4 Fees and payment</h4>
+  <p>Our fees are set out in the price list or the individual offer valid at the time of the order: <mark>[packages and prices incl. VAT]</mark>. In accordance with the ordering principle (Bestellerprinzip, § 2 (1a) WoVermittG), you only owe a brokerage fee if we search for a home exclusively on your behalf and the landlord did not commission us. The brokerage fee is due when the rental contract is concluded; any fees for additional services are due as stated in the offer. Invoices are payable within 14 days without deduction.</p>
+  <h4>§ 5 Your obligations</h4>
+  <p>You provide us with complete and truthful information about your requirements, budget and documents. You inform us without delay if you find a home yourself or if your search ends. Information about properties that we pass on to you is confidential and may not be shared with third parties.</p>
+  <h4>§ 6 Right of withdrawal for consumers</h4>
+  <p>If you are a consumer, you have the right to withdraw from the contract within 14 days without giving any reason. The withdrawal period is 14 days from the day the contract is concluded. To exercise it, inform us (Kiez &amp; Key, Kastanienallee 12, 10435 Berlin, hello@kiezandkey.de) by a clear statement. If you have requested that we start our services during the withdrawal period, you must pay a reasonable amount corresponding to the services already provided. The right of withdrawal expires once we have fully performed the service, provided that you expressly agreed to this beforehand. <mark>[Insert the full statutory withdrawal instructions and model withdrawal form.]</mark></p>
+  <h4>§ 7 Liability</h4>
+  <p>We are liable without limitation for intent and gross negligence, for injury to life, body or health and under the Product Liability Act. For slight negligence we are only liable for breaches of essential contractual obligations, limited to the typical, foreseeable damage. We are not liable for information provided by landlords or third parties about properties, nor for the conduct of landlords.</p>
+  <h4>§ 8 Data protection</h4>
+  <p>We process your personal data in accordance with our privacy policy (Datenschutz).</p>
+  <h4>§ 9 Final provisions</h4>
+  <p>The law of the Federal Republic of Germany applies, excluding the UN Convention on Contracts for the International Sale of Goods. For consumers, this choice of law only applies insofar as it does not deprive them of the protection of mandatory provisions of the country in which they have their habitual residence. If the client is a merchant, the place of jurisdiction is Berlin. Should individual provisions be invalid, the validity of the remaining provisions remains unaffected.</p>
+</template>
+
+<!-- Cookie consent -->
+<div class="ck-banner" role="dialog" aria-live="polite" aria-label="Cookie consent" hidden>
+  <p class="ck-t">We use cookies</p>
+  <p class="ck-p">Necessary cookies keep this site working. With your consent we also use analytics and marketing cookies. You can change your choice any time under “Cookie settings”. Details in our <a href="#datenschutz">Datenschutz</a>.</p>
+  <div class="ck-btns">
+    <button type="button" class="ck-b ck-primary" data-ck="all">Accept all</button>
+    <button type="button" class="ck-b" data-ck="necessary">Necessary only</button>
+    <button type="button" class="ck-b ck-link" data-cookie-open>Settings</button>
+  </div>
+</div>
+<div class="ck-modal" role="dialog" aria-modal="true" aria-labelledby="ck-h" hidden>
+  <div class="ck-card">
+    <p class="ck-t" id="ck-h">Cookie settings</p>
+    <label class="ck-opt"><span><b>Necessary</b><small>Required for the site to work. Always on.</small></span><input type="checkbox" checked disabled></label>
+    <label class="ck-opt"><span><b>Analytics</b><small>Anonymous statistics that help us improve the site.</small></span><input type="checkbox" data-ck-cat="analytics"></label>
+    <label class="ck-opt"><span><b>Marketing</b><small>Personalised ads on other platforms.</small></span><input type="checkbox" data-ck-cat="marketing"></label>
+    <details class="ck-more">
+      <summary>What exactly do we store?</summary>
+      <div class="ck-table">
+        <div class="ck-tr ck-th"><span>Name</span><span>Purpose</span><span>Duration</span></div>
+        <div class="ck-tr"><span>kk-cookie-consent</span><span>Remembers your cookie choice (local storage, necessary)</span><span>Until you delete it</span></div>
+        <div class="ck-tr"><span>Analytics</span><span>Not in use at the moment</span><span>—</span></div>
+        <div class="ck-tr"><span>Marketing</span><span>Not in use at the moment</span><span>—</span></div>
+      </div>
+      <p class="ck-note">Fonts are hosted locally — no data is sent to font providers. Details and your rights are in the <a href="#datenschutz">Datenschutz</a>. You can change your choice here at any time.</p>
+    </details>
+    <div class="ck-btns">
+      <button type="button" class="ck-b ck-primary" data-ck="save">Save choice</button>
+      <button type="button" class="ck-b" data-ck="all">Accept all</button>
+      <button type="button" class="ck-b ck-link" data-ck="close">Cancel</button>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<script>
+(function(){
+  var hs=document.querySelector('.hs'), media=document.querySelector('.stage-media'),
+      vid=document.querySelector('.stage-video'),
+      copy=document.querySelector('.stage-copy'), cue=document.querySelector('.cue'), bar=document.querySelector('.top-bar');
+  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var dur=0, cur=0, ticking=false, primed=false, played=false;
+  function clamp(x){return x<0?0:x>1?1:x}
+  function ease(t){return t<.5?2*t*t:1-Math.pow(-2*t+2,2)/2}
+  vid.muted=true;
+  function onMeta(){ dur=vid.duration||5; kick(); }
+  vid.addEventListener('loadedmetadata',onMeta); if(vid.readyState>=1) onMeta();
+  // iOS/Safari only decode frames after playback has started once: play muted for a moment, then pause
+  function prime(){ if(primed) return; primed=true; var pr=vid.play(); if(pr&&pr.then) pr.then(function(){ if(!played){ vid.pause(); seek(); } }).catch(function(){}); else vid.pause(); }
+  vid.addEventListener('loadeddata',prime);
+  function seek(){
+    if(!dur||vid.seeking) return;
+    if(Math.abs(vid.currentTime-cur)>0.02){ try{ vid.currentTime=cur; }catch(e){} }
+  }
+  vid.addEventListener('seeked',seek);
+  if(reduce){
+    // no scrubbing: just play the clip once
+    vid.addEventListener('loadeddata',function(){ vid.play().catch(function(){}); });
+    window.addEventListener('scroll',function(){bar.classList.toggle('solid',scrollY>innerHeight*.6)},{passive:true}); return;
+  }
+  function frame(){
+    var vh=innerHeight, y=-hs.getBoundingClientRect().top, scrub=hs.offsetHeight-2*vh;
+    var p=scrub>0?clamp(y/scrub):0, q=clamp((y-(scrub>0?scrub:0))/vh), target=p*Math.max(dur-0.04,0);
+    if(scrub<=0){ // short hero (phones): no scroll scrubbing, play the clip once instead
+      if(!played && dur){ played=true; vid.play().catch(function(){}); }
+    } else { cur+=(target-cur)*0.2; if(Math.abs(cur-target)<0.005) cur=target; seek(); }
+    var e=ease(p);
+    copy.style.transform='translate3d(0,'+(-e*42)+'vh,0)';
+    copy.style.opacity=p<.32?1:clamp(1-(p-.32)/.33);
+    cue.style.opacity=p<.04?1:0;
+    media.style.transform='translate3d(0,'+(-q*22)+'vh,0) scale('+(1+q*.06)+')';
+    media.style.filter='brightness('+(1-q*.55)+')';
+    bar.classList.toggle('solid', q>.85 || y>scrub+vh);
+    ticking=(scrub>0 && cur!==target);
+    if(ticking) requestAnimationFrame(frame);
+  }
+  function kick(){ if(!ticking){ ticking=true; requestAnimationFrame(frame);} }
+  window.addEventListener('scroll',kick,{passive:true});
+  window.addEventListener('resize',kick);
+  kick();
+})();
+</script>
+<script>
+kkLater(function(){
+  var root=document.querySelector('[data-areas]'); if(!root) return;
+  var cards=[].slice.call(root.querySelectorAll('.area'));
+  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  cards.forEach(function(c,i){
+    var bg=document.createElement('span'); bg.className='area-bg'; bg.setAttribute('aria-hidden','true');
+    c.insertBefore(bg,c.firstChild);
+    c.style.setProperty('--d',(i*0.09)+'s');
+  });
+  kkWhenBg(function(){ var imgs=cards.map(function(c){ return getComputedStyle(c).backgroundImage; }); cards.forEach(function(c,i){ c.querySelector('.area-bg').style.backgroundImage=imgs[i]; c.style.backgroundImage='none'; }); });
+  function activate(c){ cards.forEach(function(x){ x.classList.toggle('is-active',x===c); }); }
+  function fit(){
+    var cs=getComputedStyle(root), vertical=cs.flexDirection==='column';
+    var G=parseFloat(cs.getPropertyValue('--grow'))||2.4, gap=parseFloat(cs.columnGap)||0;
+    var w=(root.clientWidth-gap*(cards.length-1))/(cards.length-1+G);
+    cards.forEach(function(c){
+      var n=c.querySelector('.area-name'), s=1;
+      if(!vertical && root.clientWidth>900){ var p=getComputedStyle(c); s=Math.min(1,(w-parseFloat(p.paddingLeft)-parseFloat(p.paddingRight))/n.offsetWidth); }
+      c.style.setProperty('--fit',s.toFixed(3));
+    });
+  }
+  cards.forEach(function(c){
+    c.addEventListener('pointerenter',function(e){ if(e.pointerType==='mouse') activate(c); });
+    c.addEventListener('focus',function(){ try{ if(c.matches(':focus-visible')) activate(c); }catch(err){} });
+    // touch: first tap opens the card, second tap follows the link
+    c.addEventListener('click',function(e){ if(!c.classList.contains('is-active')){ e.preventDefault(); activate(c); } });
+  });
+  if(!reduce && 'IntersectionObserver' in window){
+    cards[0].classList.remove('is-active'); root.classList.add('pre');
+    var io=new IntersectionObserver(function(es){
+      if(!es[0].isIntersecting) return; io.disconnect();
+      root.classList.remove('pre');
+      setTimeout(function(){ if(!root.querySelector('.is-active')) activate(cards[0]); }, 650+cards.length*90);
+    },{threshold:0.2});
+    io.observe(root);
+  }
+  fit(); window.addEventListener('resize',fit);
+  if(document.fonts&&document.fonts.ready) document.fonts.ready.then(fit);
+});
+</script>
+<script>
+kkLater(function(){
+  var tst=document.querySelector('#reviews .tst'); if(!tst || !('IntersectionObserver' in window)) return;
+  var figs=[].slice.call(tst.children), timer;
+  figs.forEach(function(f,i){ f.style.setProperty('--d',(i*0.12)+'s'); });
+  function hide(){ clearTimeout(timer); tst.classList.remove('shown'); tst.classList.add('pre'); }
+  function show(){ void tst.offsetWidth; tst.classList.remove('pre');
+    timer=setTimeout(function(){ tst.classList.add('shown'); }, 1200+figs.length*160); }
+  hide();
+  // replays every time the section comes back into view from outside
+  new IntersectionObserver(function(es){
+    var e=es[0];
+    if(e.isIntersecting && e.intersectionRatio>=0.25 && tst.classList.contains('pre')) show();
+    else if(!e.isIntersecting) hide();
+  },{threshold:[0,0.25]}).observe(tst);
+});
+</script>
+<script>
+kkLater(function(){
+  var root=document.querySelector('[data-homes]'); if(!root) return;
+  var cards=[].slice.call(root.children);
+  cards.forEach(function(c,i){
+    var bg=document.createElement('span'); bg.className='home-bg'; bg.setAttribute('aria-hidden','true');
+    c.insertBefore(bg,c.firstChild);
+    c.style.setProperty('--d',(i*0.12)+'s');
+  });
+  kkWhenBg(function(){ var imgs=cards.map(function(c){ return getComputedStyle(c).backgroundImage; }); cards.forEach(function(c,i){ c.querySelector('.home-bg').style.backgroundImage=imgs[i]; c.style.backgroundImage='none'; }); });
+  if(window.matchMedia('(prefers-reduced-motion: reduce)').matches || !('IntersectionObserver' in window)){ root.classList.add('shown'); return; }
+  root.classList.add('pre');
+  new IntersectionObserver(function(es){
+    var e=es[0];
+    if(e.isIntersecting && e.intersectionRatio>=0.25 && root.classList.contains('pre')){ void root.offsetWidth; root.classList.remove('pre'); clearTimeout(root._t); root._t=setTimeout(function(){ root.classList.add('shown'); },1900); }
+    else if(!e.isIntersecting){ clearTimeout(root._t); root.classList.remove('shown'); root.classList.add('pre'); }
+  },{threshold:[0,0.25]}).observe(root);
+});
+</script>
+<script>
+kkLater(function(){
+  var sec=document.getElementById('guides'); if(!sec) return;
+  var cols=sec.children; if(cols.length<2) return;
+  var head=cols[0], list=cols[1];
+  head.classList.add('faq-head');
+  [].forEach.call(head.children,function(el,i){ el.style.setProperty('--d',(i*0.12)+'s'); });
+  [].forEach.call(list.children,function(item,i){
+    item.classList.add('faq-line','faq-row');
+    item.style.setProperty('--d',(0.15+i*0.1)+'s');
+    var q=item.querySelector('span'); if(!q) return;
+    q.classList.add('faq-q');
+    if(q.nextElementSibling) q.nextElementSibling.classList.add('faq-ic');
+    if(q.parentElement===item){
+      // single-row item: wrap its contents so the text can slide without moving the divider line
+      var w=document.createElement('div');
+      w.style.cssText='display:flex;justify-content:space-between;gap:24px;align-items:center;width:100%';
+      while(item.firstChild) w.appendChild(item.firstChild);
+      item.appendChild(w);
+    }
+    [].forEach.call(item.children,function(ch){ ch.classList.add('faq-in'); });
+  });
+  if(window.matchMedia('(prefers-reduced-motion: reduce)').matches || !('IntersectionObserver' in window)) return;
+  sec.classList.add('pre');
+  new IntersectionObserver(function(es){
+    var e=es[0];
+    if(e.isIntersecting && e.intersectionRatio>=0.2 && sec.classList.contains('pre')){ void sec.offsetWidth; sec.classList.remove('pre'); }
+    else if(!e.isIntersecting) sec.classList.add('pre');
+  },{threshold:[0,0.2]}).observe(sec);
+});
+</script>
+<script>
+kkLater(function(){
+  /* footer reveal */
+  var fin=document.querySelector('.f-in');
+  if(fin && 'IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    [].forEach.call(fin.querySelectorAll('.f-row,.f-bottom'),function(el,i){ el.style.setProperty('--d',(i*0.12)+'s'); });
+    fin.classList.add('pre');
+    new IntersectionObserver(function(es){
+      var e=es[0];
+      if(e.isIntersecting && fin.classList.contains('pre')){ void fin.offsetWidth; fin.classList.remove('pre'); }
+      else if(!e.isIntersecting && e.boundingClientRect.top>0) fin.classList.add('pre');
+    },{threshold:0.1}).observe(fin);
+  }
+  /* cookie consent */
+  var KEY='kk-cookie-consent', banner=document.querySelector('.ck-banner'), modal=document.querySelector('.ck-modal');
+  if(!banner||!modal) return;
+  var cats=[].slice.call(modal.querySelectorAll('[data-ck-cat]'));
+  function read(){ try{ return JSON.parse(localStorage.getItem(KEY)||'null'); }catch(e){ return null; } }
+  function write(v){ v.date=new Date().toISOString(); try{ localStorage.setItem(KEY,JSON.stringify(v)); }catch(e){} if(window.kkApplyConsent) window.kkApplyConsent(v); }
+  function openModal(){ var c=read()||{}; cats.forEach(function(x){ x.checked=!!c[x.getAttribute('data-ck-cat')]; }); modal.hidden=false; var f=modal.querySelector('[data-ck="save"]'); if(f) f.focus(); }
+  function closeAll(){ modal.hidden=true; banner.hidden=true; }
+  document.addEventListener('click',function(e){
+    var t=e.target.closest('[data-cookie-open],[data-ck]'); if(!t) return;
+    if(t.hasAttribute('data-cookie-open')){ openModal(); return; }
+    var a=t.getAttribute('data-ck');
+    if(a==='all'){ write({necessary:true,analytics:true,marketing:true}); closeAll(); }
+    else if(a==='necessary'){ write({necessary:true,analytics:false,marketing:false}); closeAll(); }
+    else if(a==='save'){ var v={necessary:true}; cats.forEach(function(x){ v[x.getAttribute('data-ck-cat')]=x.checked; }); write(v); closeAll(); }
+    else if(a==='close'){ modal.hidden=true; }
+  });
+  modal.addEventListener('click',function(e){ if(e.target===modal) modal.hidden=true; });
+  document.addEventListener('keydown',function(e){ if(e.key==='Escape') modal.hidden=true; });
+  if(!read()) setTimeout(function(){ banner.hidden=false; },1200);
+});
+</script>
+<script>
+kkLater(function(){
+  ['.lead-modal','.ck-banner','.ck-modal'].forEach(function(q){ var el=document.querySelector(q); if(el) document.body.appendChild(el); });
+  var modal=document.querySelector('.lead-modal'); if(!modal) return;
+  var form=modal.querySelector('.lead-form'), done=modal.querySelector('.lead-done'), err=modal.querySelector('.lead-err'), lastFocus=null;
+  function open(e){ if(e) e.preventDefault(); lastFocus=document.activeElement; form.hidden=false; done.hidden=true; err.textContent='';
+    modal.hidden=false; document.documentElement.style.overflow='hidden';
+    setTimeout(function(){ var f=form.querySelector('input'); if(f) f.focus(); },60); }
+  function close(){ modal.hidden=true; document.documentElement.style.overflow=''; if(lastFocus&&lastFocus.focus) lastFocus.focus(); }
+  document.addEventListener('click',function(e){
+    var t=e.target.closest('[data-lead-open],a[href="#quiz-start"]'); if(t){ open(e); return; }
+    if(e.target.closest('[data-lead-close]')) close();
+  });
+  modal.addEventListener('click',function(e){ if(e.target===modal) close(); });
+  document.addEventListener('keydown',function(e){
+    if(modal.hidden) return;
+    if(e.key==='Escape') close();
+    if(e.key==='Tab'){ // keep focus inside the popup
+      var f=[].filter.call(modal.querySelectorAll('button,input,a[href]'),function(x){ return x.offsetParent!==null; });
+      if(!f.length) return; var first=f[0], last=f[f.length-1];
+      if(e.shiftKey && document.activeElement===first){ e.preventDefault(); last.focus(); }
+      else if(!e.shiftKey && document.activeElement===last){ e.preventDefault(); first.focus(); }
+    }
+  });
+  form.addEventListener('input',function(e){ var el=e.target; el.classList.remove('bad'); if(el.type==='checkbox') el.parentElement.classList.remove('bad'); });
+  form.addEventListener('submit',function(e){
+    e.preventDefault(); var bad=[];
+    [].forEach.call(form.querySelectorAll('input[required]'),function(el){
+      var ok=el.checkValidity() && (el.type==='checkbox' || el.value.trim()!=='');
+      if(el.type==='checkbox') el.parentElement.classList.toggle('bad',!ok); else el.classList.toggle('bad',!ok);
+      if(!ok) bad.push(el);
+    });
+    if(bad.length){ err.textContent=bad.some(function(x){return x.type==='checkbox';}) && bad.length===1 ? 'Please accept the privacy note to continue.' : 'Please fill in all fields correctly.'; bad[0].focus(); return; }
+    err.textContent='';
+    var data={name:form.name.value.trim(),phone:form.phone.value.trim(),email:form.email.value.trim(),consent:true,date:new Date().toISOString()};
+    var btn=form.querySelector('.lead-submit'); btn.disabled=true;
+    // Sent to Netlify Forms (Netlify dashboard → Forms → "lead"; e-mail notifications can be enabled there)
+    var body=new URLSearchParams(new FormData(form)).toString();
+    fetch('/',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:body})
+      .then(function(r){ if(!r.ok) throw new Error(r.status); btn.disabled=false; form.reset(); form.hidden=true; done.hidden=false; var c=done.querySelector('button'); if(c) c.focus(); })
+      .catch(function(){ btn.disabled=false; err.textContent='Sorry, something went wrong. Please try again or write to hello@kiezandkey.de.'; });
+  });
+});
+</script>
+<script>
+kkLater(function(){
+  /* ---------- legal modal ---------- */
+  var lg=document.querySelector('.lg-modal');
+  if(lg){
+    document.body.appendChild(lg);
+    var body=lg.querySelector('.lg-body'), title=lg.querySelector('.lg-title'), content=lg.querySelector('.lg-content'),
+        bar=lg.querySelector('.lg-progress span'), tabs=[].slice.call(lg.querySelectorAll('[data-lg]')), last=null;
+    var names={impressum:'Impressum',datenschutz:'Datenschutz',agb:'AGB'};
+    function show(key){
+      var t=document.getElementById('legal-'+key); if(!t) return;
+      title.textContent=names[key]; content.innerHTML=''; content.appendChild(t.content.cloneNode(true));
+      tabs.forEach(function(b){ b.setAttribute('aria-current', b.getAttribute('data-lg')===key ? 'true':'false'); });
+      body.scrollTop=0; update();
+    }
+    function open(key){
+      if(lg.hidden) last=document.activeElement;
+      show(key); lg.hidden=false; document.documentElement.style.overflow='hidden';
+      setTimeout(function(){ body.focus({preventScroll:true}); },50);
+    }
+    function close(){
+      lg.hidden=true;
+      var other=document.querySelector('.lead-modal:not([hidden]),.ck-modal:not([hidden])');
+      if(!other) document.documentElement.style.overflow='';
+      if(last&&last.focus) last.focus();
+      if(/^#(impressum|datenschutz|agb)$/.test(location.hash)) history.replaceState(null,'',location.pathname+location.search);
+    }
+    function update(){ var m=body.scrollHeight-body.clientHeight; bar.style.transform='scaleX('+(m>0?body.scrollTop/m:1)+')'; }
+    body.addEventListener('scroll',update,{passive:true});
+    document.addEventListener('click',function(e){
+      var a=e.target.closest('a[href="#impressum"],a[href="#datenschutz"],a[href="#agb"]');
+      if(a){ e.preventDefault(); open(a.getAttribute('href').slice(1)); return; }
+      var t=e.target.closest('[data-lg]'); if(t&&lg.contains(t)){ show(t.getAttribute('data-lg')); return; }
+      if(e.target.closest('[data-lg-close]')) close();
+    });
+    lg.addEventListener('click',function(e){ if(e.target===lg) close(); });
+    document.addEventListener('keydown',function(e){ if(!lg.hidden && e.key==='Escape'){ e.stopImmediatePropagation(); close(); } },true);
+    var h=location.hash.slice(1); if(names[h]) open(h);
+  }
+
+  /* ---------- CTA follows the cursor ---------- */
+  var cta=document.getElementById('quiz');
+  if(!cta || window.matchMedia('(prefers-reduced-motion: reduce)').matches || !window.matchMedia('(hover: hover)').matches) return;
+  var bg=document.createElement('span'); bg.className='cta-bg'; cta.insertBefore(bg,cta.firstChild);
+  kkWhenBg(function(){ var cs=getComputedStyle(cta); bg.style.backgroundImage=cs.backgroundImage; bg.style.backgroundPosition=cs.backgroundPosition; cta.style.backgroundImage='none'; });
+  var glow=document.createElement('span'); glow.className='cta-glow'; cta.insertBefore(glow,bg.nextSibling);
+  var card=cta.querySelector('.cta-card'), btn=card&&card.querySelector('a');
+  var tx=0,ty=0,x=0,y=0,raf=null,hovering=false,bx=0,by=0,bxT=0,byT=0,sc=1;
+  function loop(){
+    x+=(tx-x)*0.08; y+=(ty-y)*0.08; bx+=(bxT-bx)*0.15; by+=(byT-by)*0.15;
+    cta.style.setProperty('--bx',(-x*18).toFixed(2)+'px'); cta.style.setProperty('--by',(-y*12).toFixed(2)+'px');
+    sc+=((hovering?1.04:1)-sc)*0.06; cta.style.setProperty('--bs',sc.toFixed(4));
+    card.style.setProperty('--rx',(-y*4).toFixed(2)+'deg'); card.style.setProperty('--ry',(x*5).toFixed(2)+'deg');
+    card.style.setProperty('--cx',(x*8).toFixed(2)+'px'); card.style.setProperty('--cy',(y*6).toFixed(2)+'px');
+    if(btn){ btn.style.setProperty('--mx',bx.toFixed(2)+'px'); btn.style.setProperty('--my',by.toFixed(2)+'px'); }
+    if(Math.abs(tx-x)>0.001||Math.abs(ty-y)>0.001||Math.abs(bxT-bx)>0.05||Math.abs(byT-by)>0.05||Math.abs((hovering?1.04:1)-sc)>0.0005||hovering) raf=requestAnimationFrame(loop); else raf=null;
+  }
+  function kick(){ if(!raf) raf=requestAnimationFrame(loop); }
+  cta.style.setProperty('--bs','1');
+  cta.addEventListener('pointermove',function(e){
+    if(e.pointerType!=='mouse') return;
+    var r=cta.getBoundingClientRect();
+    tx=((e.clientX-r.left)/r.width-0.5)*2; ty=((e.clientY-r.top)/r.height-0.5)*2;
+    cta.style.setProperty('--gx',(e.clientX-r.left)+'px'); cta.style.setProperty('--gy',(e.clientY-r.top)+'px');
+    var c=card.getBoundingClientRect(); card.style.setProperty('--hx',(e.clientX-c.left)+'px'); card.style.setProperty('--hy',(e.clientY-c.top)+'px');
+    if(btn){ var b=btn.getBoundingClientRect(), dx=e.clientX-(b.left+b.width/2), dy=e.clientY-(b.top+b.height/2), d=Math.hypot(dx,dy);
+      if(d<120){ bxT=dx*0.25; byT=dy*0.3; } else { bxT=0; byT=0; } }
+    kick();
+  });
+  cta.addEventListener('pointerenter',function(e){ if(e.pointerType!=='mouse') return; hovering=true; cta.classList.add('is-hover'); kick(); });
+  cta.addEventListener('pointerleave',function(){ hovering=false; cta.classList.remove('is-hover'); tx=0; ty=0; bxT=0; byT=0; kick(); });
+});
+</script>
+<script>
+/* Loads tracking only after consent (called by the cookie banner and on page load). */
+window.kkApplyConsent=function(c){
+  if(!c) return;
+  if(c.analytics && !window.__kkGA){ window.__kkGA=true;
+    /* GA4: insert here — e.g.
+       var s=document.createElement('script'); s.async=true; s.src='https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX'; document.head.appendChild(s);
+       window.dataLayer=window.dataLayer||[]; function gtag(){dataLayer.push(arguments);} gtag('js',new Date()); gtag('config','G-XXXXXXX'); */
+  }
+  if(c.marketing && !window.__kkPixel){ window.__kkPixel=true;
+    /* Meta Pixel: insert here (the standard fbq snippet with your Pixel ID) */
+  }
+};
+(function(){
+  try{ var c=JSON.parse(localStorage.getItem('kk-cookie-consent')||'null'); if(c) window.kkApplyConsent(c); }catch(e){}
+  var f=document.querySelector('form[data-search]');
+  if(f) f.addEventListener('submit',function(e){ e.preventDefault(); var t=document.getElementById('homes'); if(t) t.scrollIntoView({behavior:'smooth',block:'start'}); });
+})();
+</script>
+<script>
+/* Hero video: fetch it after the first paint; phones wait for the first touch */
+(function(){
+  var v=document.querySelector('.stage-video'), started=false;
+  function go(){ if(started||!v) return; started=true; v.preload='auto'; v.load(); }
+  function release(){ if(window.kkReleaseBg) kkReleaseBg(); }
+  ['touchstart','pointerdown','wheel','keydown'].forEach(function(t){ window.addEventListener(t,function(){ release(); go(); },{passive:true,once:true}); });
+  window.addEventListener('scroll',release,{passive:true,once:true});
+  function onLoad(){ setTimeout(function(){ release(); if(window.innerWidth>=760) go(); },150); }
+  if(document.readyState==='complete') onLoad(); else window.addEventListener('load',onLoad);
+})();
+</script>
+</body>
+</html>
